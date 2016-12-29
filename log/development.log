@@ -1,0 +1,2527 @@
+MONGODB | Topology type 'unknown' initializing.
+MONGODB | Server localhost:27017 initializing.
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Topology type 'unknown' changed to type 'single'.
+MONGODB | Server description for localhost:27017 changed from 'unknown' to 'standalone'.
+MONGODB | There was a change in the members of the 'single' topology.
+MONGODB | localhost:27017 | railsreactbook.insert | STARTED | {"insert"=>"books", "documents"=>[{"_id"=>BSON::ObjectId('58637119acbd1820c5fdaa4a'), "title"=>"I bet you’re still using Bootstrap too", "sinopsis"=>"Oh. You need a little dummy text for your mockup? How quaint.", "price"=>"21", "status"=>false, "upda...
+MONGODB | localhost:27017 | railsreactbook.insert | SUCCEEDED | 0.47098425499999996s
+MONGODB | localhost:27017 | railsreactbook.find | STARTED | {"find"=>"books", "filter"=>{}, "sort"=>{"_id"=>1}, "limit"=>1, "singleBatch"=>true}
+MONGODB | localhost:27017 | railsreactbook.find | SUCCEEDED | 0.001322358s
+MONGODB | localhost:27017 | railsreactbook.find | STARTED | {"find"=>"books", "filter"=>{}, "sort"=>{"_id"=>1}, "limit"=>1, "singleBatch"=>true}
+MONGODB | localhost:27017 | railsreactbook.find | SUCCEEDED | 0.003200917s
+MONGODB | localhost:27017 | railsreactbook.update | STARTED | {"update"=>"books", "updates"=>[{"q"=>{"_id"=>BSON::ObjectId('58637119acbd1820c5fdaa4a')}, "u"=>{"$set"=>{"published_on"=>2016-12-28 00:00:00 UTC, "updated_at"=>2016-12-28 08:02:10 UTC}}, "multi"=>false, "upsert"=>false}], "ordered"=>true}
+MONGODB | localhost:27017 | railsreactbook.update | SUCCEEDED | 0.026157676s
+MONGODB | localhost:27017 | railsreactbook.find | STARTED | {"find"=>"books", "filter"=>{}, "sort"=>{"_id"=>1}, "limit"=>1, "singleBatch"=>true}
+MONGODB | localhost:27017 | railsreactbook.find | SUCCEEDED | 0.001334032s
+MONGODB | localhost:27017 | railsreactbook.insert | STARTED | {"insert"=>"books", "documents"=>[{"_id"=>BSON::ObjectId('586373eeacbd1820c5fdaa4b'), "title"=>"Banh mi single-origin coffee schlitz", "sinopsis"=>"Live-edge photo booth brunch chambray activated charcoal, fingerstache", "price"=>"34", "published_on"=...
+MONGODB | localhost:27017 | railsreactbook.insert | SUCCEEDED | 0.001093311s
+MONGODB | localhost:27017 | railsreactbook.insert | STARTED | {"insert"=>"books", "documents"=>[{"_id"=>BSON::ObjectId('58637533acbd1820c5fdaa4c'), "title"=>"Cardigan pabst truffaut distillery", "sinopsis"=>"quid gastropub franzen, banjo butcher 8-bit blue bottle selvage", "price"=>"39", "published_on"=>2016-01-...
+MONGODB | localhost:27017 | railsreactbook.insert | SUCCEEDED | 0.0008717919999999999s
+Started GET "/" for 127.0.0.1 at 2016-12-28 17:25:05 +0700
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+  Rendered books/index.html.erb within layouts/application (11.2ms)
+Started GET "/" for 127.0.0.1 at 2016-12-28 17:25:06 +0700
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+  Rendered books/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 12541ms (Views: 12440.4ms)
+
+
+Completed 200 OK in 13692ms (Views: 13648.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-12-28 17:27:47 +0700
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+MONGODB | Topology type 'unknown' initializing.
+MONGODB | Server localhost:27017 initializing.
+MONGODB | Topology type 'unknown' changed to type 'single'.
+MONGODB | Server description for localhost:27017 changed from 'unknown' to 'standalone'.
+MONGODB | There was a change in the members of the 'single' topology.
+MONGODB | localhost:27017 | railsreactbook.find | STARTED | {"find"=>"books", "filter"=>{}}
+MONGODB | localhost:27017 | railsreactbook.find | SUCCEEDED | 0.003415741s
+  Rendered books/index.html.erb within layouts/application (11.4ms)
+Completed 200 OK in 127ms (Views: 125.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-12-28 17:28:24 +0700
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+MONGODB | localhost:27017 | railsreactbook.find | STARTED | {"find"=>"books", "filter"=>{}}
+MONGODB | localhost:27017 | railsreactbook.find | SUCCEEDED | 0.001529924s
+  Rendered books/index.html.erb within layouts/application (25.6ms)
+Completed 500 Internal Server Error in 31ms
+
+
+  
+ActionView::Template::Error (wrong number of arguments (given 0, expected 1..2)):
+    1: <%= react_component 'BooksMain', {books: @books.to_json(only: [:_id, :title, :sinopsis, :price, :published_on]).slice() } %>
+  
+app/views/books/index.html.erb:1:in `slice'
+app/views/books/index.html.erb:1:in `_app_views_books_index_html_erb___2849832368902900639_69876348388000'
+  Rendering /home/foo/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /home/foo/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/foo/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (8.7ms)
+  Rendering /home/foo/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/foo/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.7ms)
+  Rendering /home/foo/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/foo/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.7ms)
+  Rendered /home/foo/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (39.3ms)
+Started GET "/" for 127.0.0.1 at 2016-12-28 17:28:41 +0700
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+  Rendered books/index.html.erb within layouts/application (2.9ms)
+Completed 500 Internal Server Error in 9ms
+
+
+  
+ActionView::Template::Error (wrong number of arguments (given 0, expected 1..2)):
+    1: <%= react_component 'BooksMain', {books: @books.to_json(only: [:_id, :title, :sinopsis, :price, :published_on].slice())} %>
+  
+app/views/books/index.html.erb:1:in `slice'
+app/views/books/index.html.erb:1:in `_app_views_books_index_html_erb___2849832368902900639_69876247357280'
+  Rendering /home/foo/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /home/foo/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/foo/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (6.3ms)
+  Rendering /home/foo/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/foo/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.5ms)
+  Rendering /home/foo/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/foo/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /home/foo/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (31.2ms)
+Started GET "/" for 127.0.0.1 at 2016-12-28 17:28:49 +0700
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+MONGODB | localhost:27017 | railsreactbook.find | STARTED | {"find"=>"books", "filter"=>{}}
+MONGODB | localhost:27017 | railsreactbook.find | SUCCEEDED | 0.0009686639999999999s
+  Rendered books/index.html.erb within layouts/application (4.6ms)
+Completed 200 OK in 90ms (Views: 88.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-12-28 17:31:29 +0700
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+MONGODB | localhost:27017 | railsreactbook.find | STARTED | {"find"=>"books", "filter"=>{}}
+MONGODB | localhost:27017 | railsreactbook.find | SUCCEEDED | 0.0008590280000000001s
+  Rendered books/index.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 2185ms (Views: 2183.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-12-28 17:31:54 +0700
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+MONGODB | localhost:27017 | railsreactbook.find | STARTED | {"find"=>"books", "filter"=>{}}
+MONGODB | localhost:27017 | railsreactbook.find | SUCCEEDED | 0.001082018s
+  Rendered books/index.html.erb within layouts/application (4.6ms)
+Completed 200 OK in 495ms (Views: 493.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-12-28 17:33:33 +0700
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+MONGODB | localhost:27017 | railsreactbook.find | STARTED | {"find"=>"books", "filter"=>{}}
+MONGODB | localhost:27017 | railsreactbook.find | SUCCEEDED | 0.000862965s
+  Rendered books/index.html.erb within layouts/application (3.7ms)
+Completed 200 OK in 490ms (Views: 487.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-12-28 17:50:00 +0700
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+MONGODB | localhost:27017 | railsreactbook.find | STARTED | {"find"=>"books", "filter"=>{}}
+MONGODB | localhost:27017 | railsreactbook.find | SUCCEEDED | 0.000926662s
+  Rendered books/index.html.erb within layouts/application (3.9ms)
+Completed 500 Internal Server Error in 595ms
+
+
+  
+ActionView::Template::Error (SyntaxError: [stdin]:15:10: unexpected ():
+     5:     <%= csrf_meta_tags %>
+     6: 
+     7:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     8:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+     9:   </head>
+    10: 
+    11:   <body>
+  
+app/views/layouts/application.html.erb:8:in `_app_views_layouts_application_html_erb___1633006213824044580_69876355278060'
+  Rendering /home/foo/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /home/foo/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/foo/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (8.4ms)
+  Rendering /home/foo/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/foo/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.9ms)
+  Rendering /home/foo/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/foo/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /home/foo/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (35.9ms)
+Started GET "/" for 127.0.0.1 at 2016-12-28 17:50:26 +0700
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+MONGODB | localhost:27017 | railsreactbook.find | STARTED | {"find"=>"books", "filter"=>{}}
+MONGODB | localhost:27017 | railsreactbook.find | SUCCEEDED | 0.000948444s
+  Rendered books/index.html.erb within layouts/application (3.8ms)
+Completed 200 OK in 521ms (Views: 516.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-12-28 17:50:48 +0700
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+MONGODB | localhost:27017 | railsreactbook.find | STARTED | {"find"=>"books", "filter"=>{}}
+MONGODB | localhost:27017 | railsreactbook.find | SUCCEEDED | 0.000839647s
+  Rendered books/index.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 522ms (Views: 512.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-12-28 17:52:24 +0700
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+MONGODB | localhost:27017 | railsreactbook.find | STARTED | {"find"=>"books", "filter"=>{}}
+MONGODB | localhost:27017 | railsreactbook.find | SUCCEEDED | 0.0008359200000000001s
+  Rendered books/index.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 511ms (Views: 509.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-12-28 17:52:35 +0700
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+MONGODB | localhost:27017 | railsreactbook.find | STARTED | {"find"=>"books", "filter"=>{}}
+MONGODB | localhost:27017 | railsreactbook.find | SUCCEEDED | 0.001039229s
+  Rendered books/index.html.erb within layouts/application (3.9ms)
+Completed 200 OK in 497ms (Views: 495.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-12-28 17:53:49 +0700
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+MONGODB | localhost:27017 | railsreactbook.find | STARTED | {"find"=>"books", "filter"=>{}}
+MONGODB | localhost:27017 | railsreactbook.find | SUCCEEDED | 0.000925233s
+  Rendered books/index.html.erb within layouts/application (3.7ms)
+Completed 200 OK in 508ms (Views: 507.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-12-28 17:54:34 +0700
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+MONGODB | localhost:27017 | railsreactbook.find | STARTED | {"find"=>"books", "filter"=>{}}
+MONGODB | localhost:27017 | railsreactbook.find | SUCCEEDED | 0.000885319s
+  Rendered books/index.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 105ms (Views: 102.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-12-28 17:55:01 +0700
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+MONGODB | localhost:27017 | railsreactbook.find | STARTED | {"find"=>"books", "filter"=>{}}
+MONGODB | localhost:27017 | railsreactbook.find | SUCCEEDED | 0.000950905s
+  Rendered books/index.html.erb within layouts/application (3.8ms)
+Completed 200 OK in 515ms (Views: 513.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-12-28 17:56:24 +0700
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+MONGODB | localhost:27017 | railsreactbook.find | STARTED | {"find"=>"books", "filter"=>{}}
+MONGODB | localhost:27017 | railsreactbook.find | SUCCEEDED | 0.001482124s
+  Rendered books/index.html.erb within layouts/application (4.7ms)
+Completed 200 OK in 519ms (Views: 513.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-12-28 17:58:54 +0700
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+MONGODB | localhost:27017 | railsreactbook.find | STARTED | {"find"=>"books", "filter"=>{}}
+MONGODB | localhost:27017 | railsreactbook.find | SUCCEEDED | 0.000965946s
+  Rendered books/index.html.erb within layouts/application (3.9ms)
+Completed 200 OK in 533ms (Views: 530.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-12-28 17:59:15 +0700
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+MONGODB | localhost:27017 | railsreactbook.find | STARTED | {"find"=>"books", "filter"=>{}}
+MONGODB | localhost:27017 | railsreactbook.find | SUCCEEDED | 0.0010446189999999999s
+  Rendered books/index.html.erb within layouts/application (4.4ms)
+Completed 200 OK in 523ms (Views: 520.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-12-28 17:59:28 +0700
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+MONGODB | localhost:27017 | railsreactbook.find | STARTED | {"find"=>"books", "filter"=>{}}
+MONGODB | localhost:27017 | railsreactbook.find | SUCCEEDED | 0.000852426s
+  Rendered books/index.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 86ms (Views: 84.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-12-28 17:59:57 +0700
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+MONGODB | localhost:27017 | railsreactbook.find | STARTED | {"find"=>"books", "filter"=>{}}
+MONGODB | localhost:27017 | railsreactbook.find | SUCCEEDED | 0.000917863s
+  Rendered books/index.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 76ms (Views: 73.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-12-28 18:00:53 +0700
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+MONGODB | localhost:27017 | railsreactbook.find | STARTED | {"find"=>"books", "filter"=>{}}
+MONGODB | localhost:27017 | railsreactbook.find | SUCCEEDED | 0.0007994079999999999s
+  Rendered books/index.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 787ms (Views: 785.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-12-28 18:02:53 +0700
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+MONGODB | localhost:27017 | railsreactbook.find | STARTED | {"find"=>"books", "filter"=>{}}
+MONGODB | localhost:27017 | railsreactbook.find | SUCCEEDED | 0.000814828s
+  Rendered books/index.html.erb within layouts/application (3.3ms)
+Completed 200 OK in 569ms (Views: 564.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-12-28 18:03:09 +0700
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+MONGODB | localhost:27017 | railsreactbook.find | STARTED | {"find"=>"books", "filter"=>{}}
+MONGODB | localhost:27017 | railsreactbook.find | SUCCEEDED | 0.0007758950000000001s
+  Rendered books/index.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 517ms (Views: 516.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-12-28 18:03:30 +0700
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+MONGODB | localhost:27017 | railsreactbook.find | STARTED | {"find"=>"books", "filter"=>{}}
+MONGODB | localhost:27017 | railsreactbook.find | SUCCEEDED | 0.0009524350000000001s
+  Rendered books/index.html.erb within layouts/application (4.2ms)
+Completed 200 OK in 529ms (Views: 526.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-12-28 18:05:44 +0700
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+MONGODB | localhost:27017 | railsreactbook.find | STARTED | {"find"=>"books", "filter"=>{}}
+MONGODB | localhost:27017 | railsreactbook.find | SUCCEEDED | 0.000900869s
+  Rendered books/index.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 92ms (Views: 89.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-12-28 18:09:38 +0700
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+MONGODB | localhost:27017 | railsreactbook.find | STARTED | {"find"=>"books", "filter"=>{}}
+MONGODB | localhost:27017 | railsreactbook.find | SUCCEEDED | 0.0008745329999999999s
+  Rendered books/index.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 526ms (Views: 524.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-12-28 23:56:43 +0700
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+MONGODB | Topology type 'unknown' initializing.
+MONGODB | Server localhost:27017 initializing.
+MONGODB | Topology type 'unknown' changed to type 'single'.
+MONGODB | Server description for localhost:27017 changed from 'unknown' to 'standalone'.
+MONGODB | There was a change in the members of the 'single' topology.
+MONGODB | localhost:27017 | railsreactbook.find | STARTED | {"find"=>"books", "filter"=>{}}
+MONGODB | localhost:27017 | railsreactbook.find | SUCCEEDED | 0.002620669s
+  Rendered books/index.html.erb within layouts/application (77.5ms)
+Completed 200 OK in 3038ms (Views: 2934.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-12-28 23:57:58 +0700
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+MONGODB | localhost:27017 | railsreactbook.find | STARTED | {"find"=>"books", "filter"=>{}}
+MONGODB | localhost:27017 | railsreactbook.find | SUCCEEDED | 0.000959609s
+  Rendered books/index.html.erb within layouts/application (4.2ms)
+Completed 200 OK in 2102ms (Views: 2100.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-12-29 00:10:06 +0700
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+MONGODB | Topology type 'unknown' initializing.
+MONGODB | Server localhost:27017 initializing.
+MONGODB | Topology type 'unknown' changed to type 'single'.
+MONGODB | Server description for localhost:27017 changed from 'unknown' to 'standalone'.
+MONGODB | There was a change in the members of the 'single' topology.
+MONGODB | localhost:27017 | railsreactbook.find | STARTED | {"find"=>"books", "filter"=>{}}
+MONGODB | localhost:27017 | railsreactbook.find | SUCCEEDED | 0.001918225s
+  Rendered books/index.html.erb within layouts/application (30.2ms)
+Completed 200 OK in 1613ms (Views: 1586.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-12-29 00:14:07 +0700
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+MONGODB | localhost:27017 | railsreactbook.find | STARTED | {"find"=>"books", "filter"=>{}}
+MONGODB | localhost:27017 | railsreactbook.find | SUCCEEDED | 0.001061689s
+  Rendered books/index.html.erb within layouts/application (4.2ms)
+Completed 200 OK in 520ms (Views: 518.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-12-29 00:24:04 +0700
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+MONGODB | Topology type 'unknown' initializing.
+MONGODB | Server localhost:27017 initializing.
+MONGODB | Topology type 'unknown' changed to type 'single'.
+MONGODB | Server description for localhost:27017 changed from 'unknown' to 'standalone'.
+MONGODB | There was a change in the members of the 'single' topology.
+MONGODB | localhost:27017 | railsreactbook.find | STARTED | {"find"=>"books", "filter"=>{}}
+MONGODB | localhost:27017 | railsreactbook.find | SUCCEEDED | 0.0021458289999999997s
+  Rendered books/index.html.erb within layouts/application (27.9ms)
+Completed 500 Internal Server Error in 593ms
+
+
+  
+ActionView::Template::Error (couldn't find file 'lodash' with type 'application/javascript'
+Checked in these paths: 
+  /home/foo/Code/RoR/railsreactbook/app/assets/config
+  /home/foo/Code/RoR/railsreactbook/app/assets/images
+  /home/foo/Code/RoR/railsreactbook/app/assets/javascripts
+  /home/foo/Code/RoR/railsreactbook/app/assets/stylesheets
+  /home/foo/Code/RoR/railsreactbook/vendor/assets/javascripts
+  /home/foo/Code/RoR/railsreactbook/vendor/assets/stylesheets
+  /home/foo/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/jquery-rails-4.2.1/vendor/assets/javascripts
+  /home/foo/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/coffee-rails-4.2.1/lib/assets/javascripts
+  /home/foo/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actioncable-5.0.1/lib/assets/compiled
+  /home/foo/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/turbolinks-source-5.0.0/lib/assets/javascripts
+  /home/foo/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/react-rails-1.10.0/lib/assets/react-source/development
+  /home/foo/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/react-rails-1.10.0/lib/assets/javascripts
+  /home/foo/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/bootstrap-sass-3.3.7/assets/stylesheets
+  /home/foo/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/bootstrap-sass-3.3.7/assets/javascripts
+  /home/foo/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/bootstrap-sass-3.3.7/assets/fonts
+  /home/foo/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/bootstrap-sass-3.3.7/assets/images):
+    4:     <title>Railsreactbook</title>
+    5:     <%= csrf_meta_tags %>
+    6: 
+    7:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    8:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    9:   </head>
+   10: 
+  
+app/assets/javascripts/application.js:16
+app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb__2057541978121146667_47370357754340'
+  Rendering /home/foo/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /home/foo/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/foo/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (13.8ms)
+  Rendering /home/foo/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/foo/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (6.8ms)
+  Rendering /home/foo/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/foo/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /home/foo/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (56.4ms)
+Started GET "/" for 127.0.0.1 at 2016-12-29 00:24:31 +0700
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+MONGODB | localhost:27017 | railsreactbook.find | STARTED | {"find"=>"books", "filter"=>{}}
+MONGODB | localhost:27017 | railsreactbook.find | SUCCEEDED | 0.000824941s
+  Rendered books/index.html.erb within layouts/application (3.6ms)
+Completed 500 Internal Server Error in 612ms
+
+
+  
+ActionView::Template::Error (SyntaxError: [stdin]:14:5: unexpected .):
+    4:     <title>Railsreactbook</title>
+    5:     <%= csrf_meta_tags %>
+    6: 
+    7:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    8:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    9:   </head>
+   10: 
+  
+app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb__2057541978121146667_69913496236800'
+  Rendering /home/foo/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /home/foo/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/foo/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (8.6ms)
+  Rendering /home/foo/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/foo/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.5ms)
+  Rendering /home/foo/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/foo/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /home/foo/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (35.1ms)
+Started GET "/" for 127.0.0.1 at 2016-12-29 00:24:48 +0700
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+MONGODB | localhost:27017 | railsreactbook.find | STARTED | {"find"=>"books", "filter"=>{}}
+MONGODB | localhost:27017 | railsreactbook.find | SUCCEEDED | 0.0008436660000000001s
+  Rendered books/index.html.erb within layouts/application (3.6ms)
+Completed 500 Internal Server Error in 326ms
+
+
+  
+ActionView::Template::Error (SyntaxError: [stdin]:14:28: unexpected =>):
+    4:     <title>Railsreactbook</title>
+    5:     <%= csrf_meta_tags %>
+    6: 
+    7:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    8:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    9:   </head>
+   10: 
+  
+app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb__2057541978121146667_69913377042100'
+  Rendering /home/foo/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /home/foo/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/foo/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (9.6ms)
+  Rendering /home/foo/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/foo/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.5ms)
+  Rendering /home/foo/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/foo/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /home/foo/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (37.4ms)
+Started GET "/" for 127.0.0.1 at 2016-12-29 00:25:26 +0700
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+MONGODB | localhost:27017 | railsreactbook.find | STARTED | {"find"=>"books", "filter"=>{}}
+MONGODB | localhost:27017 | railsreactbook.find | SUCCEEDED | 0.001307512s
+  Rendered books/index.html.erb within layouts/application (4.7ms)
+Completed 200 OK in 729ms (Views: 725.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-12-29 00:29:24 +0700
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+MONGODB | localhost:27017 | railsreactbook.find | STARTED | {"find"=>"books", "filter"=>{}}
+MONGODB | localhost:27017 | railsreactbook.find | SUCCEEDED | 0.001288237s
+  Rendered books/index.html.erb within layouts/application (4.6ms)
+Completed 200 OK in 515ms (Views: 511.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-12-29 00:29:56 +0700
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+MONGODB | localhost:27017 | railsreactbook.find | STARTED | {"find"=>"books", "filter"=>{}}
+MONGODB | localhost:27017 | railsreactbook.find | SUCCEEDED | 0.000953114s
+  Rendered books/index.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 86ms (Views: 84.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-12-29 00:36:31 +0700
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+  Rendering books/index.json.jbuilder
+  Rendered books/index.json.jbuilder (167.6ms)
+  Rendered books/index.html.erb within layouts/application (169.5ms)
+Completed 500 Internal Server Error in 173ms
+
+
+  
+ActionView::Template::Error (undefined local variable or method `book' for #<#<Class:0x00562a8aba3c08>:0x007f2bf97213f8>
+Did you mean?  book_url
+               books_url
+               book_path
+               @books):
+    1: json.books @books, partial: 'books/book', as: book
+  
+app/views/books/index.json.jbuilder:1:in `_app_views_books_index_json_jbuilder__1103287925704798840_69913422523360'
+app/views/books/index.html.erb:1:in `_app_views_books_index_html_erb__472638674956676155_69913422663440'
+  Rendering /home/foo/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /home/foo/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/foo/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (10.7ms)
+  Rendering /home/foo/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/foo/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.9ms)
+  Rendering /home/foo/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/foo/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /home/foo/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (38.6ms)
+Started GET "/" for 127.0.0.1 at 2016-12-29 00:37:04 +0700
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+  Rendering books/index.json.jbuilder
+MONGODB | localhost:27017 | railsreactbook.find | STARTED | {"find"=>"books", "filter"=>{}}
+MONGODB | localhost:27017 | railsreactbook.find | SUCCEEDED | 0.001128972s
+  Rendered books/_book.json.jbuilder (0.7ms)
+  Rendered books/_book.json.jbuilder (0.1ms)
+  Rendered books/_book.json.jbuilder (0.1ms)
+  Rendered books/index.json.jbuilder (57.2ms)
+  Rendered books/index.html.erb within layouts/application (59.9ms)
+Completed 200 OK in 535ms (Views: 533.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-12-29 01:17:22 +0700
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+  Rendering books/index.json.jbuilder
+MONGODB | localhost:27017 | railsreactbook.find | STARTED | {"find"=>"books", "filter"=>{}}
+MONGODB | localhost:27017 | railsreactbook.find | SUCCEEDED | 0.001160667s
+  Rendered books/_book.json.jbuilder (0.7ms)
+  Rendered books/_book.json.jbuilder (0.1ms)
+  Rendered books/_book.json.jbuilder (0.2ms)
+  Rendered books/index.json.jbuilder (6.8ms)
+  Rendered books/index.html.erb within layouts/application (8.6ms)
+Completed 200 OK in 546ms (Views: 544.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-12-29 01:19:11 +0700
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+  Rendering books/index.json.jbuilder
+MONGODB | localhost:27017 | railsreactbook.find | STARTED | {"find"=>"books", "filter"=>{}}
+MONGODB | localhost:27017 | railsreactbook.find | SUCCEEDED | 0.000797166s
+  Rendered books/_book.json.jbuilder (0.5ms)
+  Rendered books/_book.json.jbuilder (0.1ms)
+  Rendered books/_book.json.jbuilder (0.1ms)
+  Rendered books/index.json.jbuilder (4.6ms)
+  Rendered books/index.html.erb within layouts/application (6.2ms)
+Completed 200 OK in 522ms (Views: 518.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-12-29 01:30:01 +0700
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+  Rendering books/index.json.jbuilder
+MONGODB | localhost:27017 | railsreactbook.find | STARTED | {"find"=>"books", "filter"=>{}}
+MONGODB | localhost:27017 | railsreactbook.find | SUCCEEDED | 0.0012318580000000002s
+  Rendered books/_book.json.jbuilder (0.7ms)
+  Rendered books/_book.json.jbuilder (0.1ms)
+  Rendered books/_book.json.jbuilder (0.1ms)
+  Rendered books/index.json.jbuilder (6.0ms)
+  Rendered books/index.html.erb within layouts/application (8.1ms)
+Completed 200 OK in 536ms (Views: 533.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-12-29 01:30:21 +0700
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+  Rendering books/index.json.jbuilder
+MONGODB | localhost:27017 | railsreactbook.find | STARTED | {"find"=>"books", "filter"=>{}}
+MONGODB | localhost:27017 | railsreactbook.find | SUCCEEDED | 0.0010059749999999999s
+  Rendered books/_book.json.jbuilder (0.6ms)
+  Rendered books/_book.json.jbuilder (0.1ms)
+  Rendered books/_book.json.jbuilder (0.1ms)
+  Rendered books/index.json.jbuilder (5.2ms)
+  Rendered books/index.html.erb within layouts/application (7.1ms)
+Completed 200 OK in 572ms (Views: 569.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-12-29 01:31:27 +0700
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+  Rendering books/index.json.jbuilder
+MONGODB | localhost:27017 | railsreactbook.find | STARTED | {"find"=>"books", "filter"=>{}}
+MONGODB | localhost:27017 | railsreactbook.find | SUCCEEDED | 0.001083131s
+  Rendered books/_book.json.jbuilder (0.8ms)
+  Rendered books/_book.json.jbuilder (0.1ms)
+  Rendered books/_book.json.jbuilder (0.1ms)
+  Rendered books/index.json.jbuilder (6.3ms)
+  Rendered books/index.html.erb within layouts/application (8.1ms)
+Completed 200 OK in 558ms (Views: 556.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-12-29 01:31:46 +0700
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+  Rendering books/index.json.jbuilder
+MONGODB | localhost:27017 | railsreactbook.find | STARTED | {"find"=>"books", "filter"=>{}}
+MONGODB | localhost:27017 | railsreactbook.find | SUCCEEDED | 0.001098522s
+  Rendered books/_book.json.jbuilder (0.5ms)
+  Rendered books/_book.json.jbuilder (0.2ms)
+  Rendered books/_book.json.jbuilder (0.1ms)
+  Rendered books/index.json.jbuilder (6.2ms)
+  Rendered books/index.html.erb within layouts/application (8.0ms)
+Completed 200 OK in 637ms (Views: 635.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-12-29 01:32:19 +0700
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+  Rendering books/index.json.jbuilder
+MONGODB | localhost:27017 | railsreactbook.find | STARTED | {"find"=>"books", "filter"=>{}}
+MONGODB | localhost:27017 | railsreactbook.find | SUCCEEDED | 0.001189664s
+  Rendered books/_book.json.jbuilder (0.8ms)
+  Rendered books/_book.json.jbuilder (0.1ms)
+  Rendered books/_book.json.jbuilder (0.1ms)
+  Rendered books/index.json.jbuilder (7.7ms)
+  Rendered books/index.html.erb within layouts/application (9.4ms)
+Completed 200 OK in 543ms (Views: 542.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-12-29 01:34:13 +0700
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+  Rendering books/index.json.jbuilder
+MONGODB | localhost:27017 | railsreactbook.find | STARTED | {"find"=>"books", "filter"=>{}}
+MONGODB | localhost:27017 | railsreactbook.find | SUCCEEDED | 0.0007945480000000001s
+  Rendered books/_book.json.jbuilder (0.6ms)
+  Rendered books/_book.json.jbuilder (0.1ms)
+  Rendered books/_book.json.jbuilder (0.1ms)
+  Rendered books/index.json.jbuilder (4.6ms)
+  Rendered books/index.html.erb within layouts/application (6.1ms)
+Completed 200 OK in 517ms (Views: 513.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-12-29 01:36:29 +0700
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+  Rendering books/index.json.jbuilder
+MONGODB | localhost:27017 | railsreactbook.find | STARTED | {"find"=>"books", "filter"=>{}}
+MONGODB | localhost:27017 | railsreactbook.find | SUCCEEDED | 0.0008927970000000001s
+  Rendered books/_book.json.jbuilder (0.5ms)
+  Rendered books/_book.json.jbuilder (0.1ms)
+  Rendered books/_book.json.jbuilder (0.1ms)
+  Rendered books/index.json.jbuilder (5.3ms)
+  Rendered books/index.html.erb within layouts/application (7.2ms)
+Completed 200 OK in 3173ms (Views: 3171.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-12-29 01:36:48 +0700
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+  Rendering books/index.json.jbuilder
+MONGODB | localhost:27017 | railsreactbook.find | STARTED | {"find"=>"books", "filter"=>{}}
+MONGODB | localhost:27017 | railsreactbook.find | SUCCEEDED | 0.000902338s
+  Rendered books/_book.json.jbuilder (0.9ms)
+  Rendered books/_book.json.jbuilder (0.1ms)
+  Rendered books/_book.json.jbuilder (0.5ms)
+  Rendered books/index.json.jbuilder (7.2ms)
+  Rendered books/index.html.erb within layouts/application (9.4ms)
+Completed 200 OK in 589ms (Views: 586.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-12-29 01:37:07 +0700
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+  Rendering books/index.json.jbuilder
+MONGODB | localhost:27017 | railsreactbook.find | STARTED | {"find"=>"books", "filter"=>{}}
+MONGODB | localhost:27017 | railsreactbook.find | SUCCEEDED | 0.0008400549999999999s
+  Rendered books/_book.json.jbuilder (0.5ms)
+  Rendered books/_book.json.jbuilder (0.1ms)
+  Rendered books/_book.json.jbuilder (0.1ms)
+  Rendered books/index.json.jbuilder (4.8ms)
+  Rendered books/index.html.erb within layouts/application (6.4ms)
+Completed 200 OK in 520ms (Views: 518.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-12-29 13:57:36 +0700
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+  Rendering books/index.json.jbuilder
+MONGODB | Topology type 'unknown' initializing.
+MONGODB | Server localhost:27017 initializing.
+MONGODB | Topology type 'unknown' changed to type 'single'.
+MONGODB | Server description for localhost:27017 changed from 'unknown' to 'standalone'.
+MONGODB | There was a change in the members of the 'single' topology.
+MONGODB | localhost:27017 | railsreactbook.find | STARTED | {"find"=>"books", "filter"=>{}}
+MONGODB | localhost:27017 | railsreactbook.find | SUCCEEDED | 0.0017353919999999999s
+  Rendered books/_book.json.jbuilder (0.7ms)
+  Rendered books/_book.json.jbuilder (0.1ms)
+  Rendered books/_book.json.jbuilder (0.1ms)
+  Rendered books/index.json.jbuilder (144.1ms)
+  Rendered books/index.html.erb within layouts/application (227.9ms)
+Completed 200 OK in 4581ms (Views: 4492.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-12-29 14:07:06 +0700
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+  Rendering books/index.json.jbuilder
+MONGODB | localhost:27017 | railsreactbook.find | STARTED | {"find"=>"books", "filter"=>{}}
+MONGODB | localhost:27017 | railsreactbook.find | SUCCEEDED | 0.001118641s
+  Rendered books/_book.json.jbuilder (0.8ms)
+  Rendered books/_book.json.jbuilder (0.1ms)
+  Rendered books/_book.json.jbuilder (0.1ms)
+  Rendered books/index.json.jbuilder (7.4ms)
+  Rendered books/index.html.erb within layouts/application (9.3ms)
+Completed 200 OK in 2101ms (Views: 2098.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-12-29 14:07:34 +0700
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+  Rendering books/index.json.jbuilder
+MONGODB | localhost:27017 | railsreactbook.find | STARTED | {"find"=>"books", "filter"=>{}}
+MONGODB | localhost:27017 | railsreactbook.find | SUCCEEDED | 0.001004217s
+  Rendered books/_book.json.jbuilder (0.7ms)
+  Rendered books/_book.json.jbuilder (0.1ms)
+  Rendered books/_book.json.jbuilder (0.1ms)
+  Rendered books/index.json.jbuilder (6.2ms)
+  Rendered books/index.html.erb within layouts/application (8.0ms)
+Completed 200 OK in 541ms (Views: 538.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-12-29 14:08:34 +0700
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+  Rendering books/index.json.jbuilder
+MONGODB | localhost:27017 | railsreactbook.find | STARTED | {"find"=>"books", "filter"=>{}}
+MONGODB | localhost:27017 | railsreactbook.find | SUCCEEDED | 0.0008145439999999999s
+  Rendered books/_book.json.jbuilder (0.5ms)
+  Rendered books/_book.json.jbuilder (0.1ms)
+  Rendered books/_book.json.jbuilder (0.1ms)
+  Rendered books/index.json.jbuilder (5.1ms)
+  Rendered books/index.html.erb within layouts/application (6.9ms)
+Completed 200 OK in 530ms (Views: 528.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-12-29 14:09:13 +0700
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+  Rendering books/index.json.jbuilder
+MONGODB | localhost:27017 | railsreactbook.find | STARTED | {"find"=>"books", "filter"=>{}}
+MONGODB | localhost:27017 | railsreactbook.find | SUCCEEDED | 0.000941974s
+  Rendered books/_book.json.jbuilder (0.6ms)
+  Rendered books/_book.json.jbuilder (0.2ms)
+  Rendered books/_book.json.jbuilder (0.1ms)
+  Rendered books/index.json.jbuilder (6.6ms)
+  Rendered books/index.html.erb within layouts/application (9.2ms)
+Completed 200 OK in 555ms (Views: 553.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-12-29 14:09:31 +0700
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+  Rendering books/index.json.jbuilder
+MONGODB | localhost:27017 | railsreactbook.find | STARTED | {"find"=>"books", "filter"=>{}}
+MONGODB | localhost:27017 | railsreactbook.find | SUCCEEDED | 0.000883696s
+  Rendered books/_book.json.jbuilder (0.6ms)
+  Rendered books/_book.json.jbuilder (0.1ms)
+  Rendered books/_book.json.jbuilder (0.1ms)
+  Rendered books/index.json.jbuilder (5.6ms)
+  Rendered books/index.html.erb within layouts/application (7.4ms)
+Completed 200 OK in 556ms (Views: 554.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-12-29 14:10:25 +0700
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+  Rendering books/index.json.jbuilder
+MONGODB | localhost:27017 | railsreactbook.find | STARTED | {"find"=>"books", "filter"=>{}}
+MONGODB | localhost:27017 | railsreactbook.find | SUCCEEDED | 0.001435769s
+  Rendered books/_book.json.jbuilder (0.6ms)
+  Rendered books/_book.json.jbuilder (0.1ms)
+  Rendered books/_book.json.jbuilder (0.1ms)
+  Rendered books/index.json.jbuilder (6.5ms)
+  Rendered books/index.html.erb within layouts/application (8.3ms)
+Completed 200 OK in 556ms (Views: 553.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-12-29 14:11:02 +0700
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+  Rendering books/index.json.jbuilder
+MONGODB | localhost:27017 | railsreactbook.find | STARTED | {"find"=>"books", "filter"=>{}}
+MONGODB | localhost:27017 | railsreactbook.find | SUCCEEDED | 0.001069546s
+  Rendered books/_book.json.jbuilder (0.6ms)
+  Rendered books/_book.json.jbuilder (0.1ms)
+  Rendered books/_book.json.jbuilder (0.1ms)
+  Rendered books/index.json.jbuilder (6.0ms)
+  Rendered books/index.html.erb within layouts/application (7.9ms)
+Completed 200 OK in 549ms (Views: 545.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-12-29 14:11:16 +0700
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+  Rendering books/index.json.jbuilder
+MONGODB | localhost:27017 | railsreactbook.find | STARTED | {"find"=>"books", "filter"=>{}}
+MONGODB | localhost:27017 | railsreactbook.find | SUCCEEDED | 0.0010362400000000001s
+  Rendered books/_book.json.jbuilder (0.6ms)
+  Rendered books/_book.json.jbuilder (0.1ms)
+  Rendered books/_book.json.jbuilder (0.1ms)
+  Rendered books/index.json.jbuilder (5.6ms)
+  Rendered books/index.html.erb within layouts/application (7.4ms)
+Completed 200 OK in 541ms (Views: 539.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-12-29 14:11:28 +0700
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+  Rendering books/index.json.jbuilder
+MONGODB | localhost:27017 | railsreactbook.find | STARTED | {"find"=>"books", "filter"=>{}}
+MONGODB | localhost:27017 | railsreactbook.find | SUCCEEDED | 0.000855727s
+  Rendered books/_book.json.jbuilder (0.5ms)
+  Rendered books/_book.json.jbuilder (0.1ms)
+  Rendered books/_book.json.jbuilder (0.1ms)
+  Rendered books/index.json.jbuilder (5.3ms)
+  Rendered books/index.html.erb within layouts/application (7.2ms)
+Completed 200 OK in 104ms (Views: 102.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-12-29 14:12:13 +0700
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+  Rendering books/index.json.jbuilder
+MONGODB | localhost:27017 | railsreactbook.find | STARTED | {"find"=>"books", "filter"=>{}}
+MONGODB | localhost:27017 | railsreactbook.find | SUCCEEDED | 0.0011699339999999999s
+  Rendered books/_book.json.jbuilder (0.7ms)
+  Rendered books/_book.json.jbuilder (0.1ms)
+  Rendered books/_book.json.jbuilder (0.1ms)
+  Rendered books/index.json.jbuilder (6.0ms)
+  Rendered books/index.html.erb within layouts/application (7.5ms)
+Completed 200 OK in 549ms (Views: 544.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-12-29 14:12:22 +0700
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+  Rendering books/index.json.jbuilder
+MONGODB | localhost:27017 | railsreactbook.find | STARTED | {"find"=>"books", "filter"=>{}}
+MONGODB | localhost:27017 | railsreactbook.find | SUCCEEDED | 0.001272151s
+  Rendered books/_book.json.jbuilder (0.6ms)
+  Rendered books/_book.json.jbuilder (0.1ms)
+  Rendered books/_book.json.jbuilder (0.1ms)
+  Rendered books/index.json.jbuilder (6.1ms)
+  Rendered books/index.html.erb within layouts/application (8.0ms)
+Completed 500 Internal Server Error in 362ms
+
+
+  
+ActionView::Template::Error (SyntaxError: [stdin]:43:14: unexpected ():
+     5:     <%= csrf_meta_tags %>
+     6: 
+     7:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     8:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+     9:   </head>
+    10: 
+    11:   <body>
+  
+app/views/layouts/application.html.erb:8:in `_app_views_layouts_application_html_erb___4477151318839776053_69896467914260'
+  Rendering /home/foo/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /home/foo/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/foo/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (7.7ms)
+  Rendering /home/foo/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/foo/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.0ms)
+  Rendering /home/foo/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/foo/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /home/foo/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (37.0ms)
+Started GET "/" for 127.0.0.1 at 2016-12-29 14:12:33 +0700
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+  Rendering books/index.json.jbuilder
+MONGODB | localhost:27017 | railsreactbook.find | STARTED | {"find"=>"books", "filter"=>{}}
+MONGODB | localhost:27017 | railsreactbook.find | SUCCEEDED | 0.0009877339999999999s
+  Rendered books/_book.json.jbuilder (0.6ms)
+  Rendered books/_book.json.jbuilder (0.1ms)
+  Rendered books/_book.json.jbuilder (0.1ms)
+  Rendered books/index.json.jbuilder (5.9ms)
+  Rendered books/index.html.erb within layouts/application (7.5ms)
+Completed 200 OK in 541ms (Views: 539.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-12-29 14:12:56 +0700
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+  Rendering books/index.json.jbuilder
+MONGODB | localhost:27017 | railsreactbook.find | STARTED | {"find"=>"books", "filter"=>{}}
+MONGODB | localhost:27017 | railsreactbook.find | SUCCEEDED | 0.000914293s
+  Rendered books/_book.json.jbuilder (0.5ms)
+  Rendered books/_book.json.jbuilder (0.1ms)
+  Rendered books/_book.json.jbuilder (0.1ms)
+  Rendered books/index.json.jbuilder (5.2ms)
+  Rendered books/index.html.erb within layouts/application (6.8ms)
+Completed 200 OK in 567ms (Views: 565.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-12-29 14:16:44 +0700
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+  Rendering books/index.json.jbuilder
+MONGODB | localhost:27017 | railsreactbook.find | STARTED | {"find"=>"books", "filter"=>{}}
+MONGODB | localhost:27017 | railsreactbook.find | SUCCEEDED | 0.003593509s
+  Rendered books/_book.json.jbuilder (1.0ms)
+  Rendered books/_book.json.jbuilder (0.2ms)
+  Rendered books/_book.json.jbuilder (0.2ms)
+  Rendered books/index.json.jbuilder (11.2ms)
+  Rendered books/index.html.erb within layouts/application (13.4ms)
+Completed 200 OK in 588ms (Views: 586.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-12-29 14:19:13 +0700
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+  Rendering books/index.json.jbuilder
+MONGODB | localhost:27017 | railsreactbook.find | STARTED | {"find"=>"books", "filter"=>{}}
+MONGODB | localhost:27017 | railsreactbook.find | SUCCEEDED | 0.001006221s
+  Rendered books/_book.json.jbuilder (0.6ms)
+  Rendered books/_book.json.jbuilder (0.1ms)
+  Rendered books/_book.json.jbuilder (0.1ms)
+  Rendered books/index.json.jbuilder (6.0ms)
+  Rendered books/index.html.erb within layouts/application (7.6ms)
+Completed 200 OK in 90ms (Views: 88.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-12-29 14:21:07 +0700
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+  Rendering books/index.json.jbuilder
+MONGODB | localhost:27017 | railsreactbook.find | STARTED | {"find"=>"books", "filter"=>{}}
+MONGODB | localhost:27017 | railsreactbook.find | SUCCEEDED | 0.000855424s
+  Rendered books/_book.json.jbuilder (0.5ms)
+  Rendered books/_book.json.jbuilder (0.1ms)
+  Rendered books/_book.json.jbuilder (0.1ms)
+  Rendered books/index.json.jbuilder (4.8ms)
+  Rendered books/index.html.erb within layouts/application (6.2ms)
+Completed 200 OK in 91ms (Views: 84.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-12-29 14:21:21 +0700
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+  Rendering books/index.json.jbuilder
+MONGODB | localhost:27017 | railsreactbook.find | STARTED | {"find"=>"books", "filter"=>{}}
+MONGODB | localhost:27017 | railsreactbook.find | SUCCEEDED | 0.0010238279999999998s
+  Rendered books/_book.json.jbuilder (0.7ms)
+  Rendered books/_book.json.jbuilder (0.1ms)
+  Rendered books/_book.json.jbuilder (0.1ms)
+  Rendered books/index.json.jbuilder (6.0ms)
+  Rendered books/index.html.erb within layouts/application (8.0ms)
+Completed 200 OK in 79ms (Views: 77.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-12-29 14:21:35 +0700
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+  Rendering books/index.json.jbuilder
+MONGODB | localhost:27017 | railsreactbook.find | STARTED | {"find"=>"books", "filter"=>{}}
+MONGODB | localhost:27017 | railsreactbook.find | SUCCEEDED | 0.000902631s
+  Rendered books/_book.json.jbuilder (0.6ms)
+  Rendered books/_book.json.jbuilder (0.1ms)
+  Rendered books/_book.json.jbuilder (0.1ms)
+  Rendered books/index.json.jbuilder (5.1ms)
+  Rendered books/index.html.erb within layouts/application (6.6ms)
+Completed 200 OK in 105ms (Views: 90.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-12-29 14:21:57 +0700
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+  Rendering books/index.json.jbuilder
+MONGODB | localhost:27017 | railsreactbook.find | STARTED | {"find"=>"books", "filter"=>{}}
+MONGODB | localhost:27017 | railsreactbook.find | SUCCEEDED | 0.0010835649999999999s
+  Rendered books/_book.json.jbuilder (0.6ms)
+  Rendered books/_book.json.jbuilder (0.1ms)
+  Rendered books/_book.json.jbuilder (0.1ms)
+  Rendered books/index.json.jbuilder (5.7ms)
+  Rendered books/index.html.erb within layouts/application (7.6ms)
+Completed 200 OK in 88ms (Views: 86.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-12-29 14:24:14 +0700
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+  Rendering books/index.json.jbuilder
+MONGODB | localhost:27017 | railsreactbook.find | STARTED | {"find"=>"books", "filter"=>{}}
+MONGODB | localhost:27017 | railsreactbook.find | SUCCEEDED | 0.000953288s
+  Rendered books/_book.json.jbuilder (0.5ms)
+  Rendered books/_book.json.jbuilder (0.1ms)
+  Rendered books/_book.json.jbuilder (0.1ms)
+  Rendered books/index.json.jbuilder (5.2ms)
+  Rendered books/index.html.erb within layouts/application (6.7ms)
+Completed 200 OK in 554ms (Views: 552.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-12-29 14:30:22 +0700
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+  Rendering books/index.json.jbuilder
+MONGODB | localhost:27017 | railsreactbook.find | STARTED | {"find"=>"books", "filter"=>{}}
+MONGODB | localhost:27017 | railsreactbook.find | SUCCEEDED | 0.0010659670000000001s
+  Rendered books/_book.json.jbuilder (0.6ms)
+  Rendered books/_book.json.jbuilder (0.1ms)
+  Rendered books/_book.json.jbuilder (0.1ms)
+  Rendered books/index.json.jbuilder (5.5ms)
+  Rendered books/index.html.erb within layouts/application (7.5ms)
+Completed 200 OK in 547ms (Views: 546.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-12-29 14:34:34 +0700
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+  Rendering books/index.json.jbuilder
+MONGODB | localhost:27017 | railsreactbook.find | STARTED | {"find"=>"books", "filter"=>{}}
+MONGODB | localhost:27017 | railsreactbook.find | SUCCEEDED | 0.000810355s
+  Rendered books/_book.json.jbuilder (0.5ms)
+  Rendered books/_book.json.jbuilder (0.1ms)
+  Rendered books/_book.json.jbuilder (0.1ms)
+  Rendered books/index.json.jbuilder (4.9ms)
+  Rendered books/index.html.erb within layouts/application (6.5ms)
+Completed 200 OK in 559ms (Views: 555.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-12-29 19:37:26 +0700
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+  Rendering books/index.json.jbuilder
+MONGODB | Topology type 'unknown' initializing.
+MONGODB | Server localhost:27017 initializing.
+MONGODB | Topology type 'unknown' changed to type 'single'.
+MONGODB | Server description for localhost:27017 changed from 'unknown' to 'standalone'.
+MONGODB | There was a change in the members of the 'single' topology.
+MONGODB | localhost:27017 | railsreactbook.find | STARTED | {"find"=>"books", "filter"=>{}}
+MONGODB | localhost:27017 | railsreactbook.find | SUCCEEDED | 0.0013448450000000001s
+  Rendered books/_book.json.jbuilder (1.1ms)
+  Rendered books/_book.json.jbuilder (0.1ms)
+  Rendered books/_book.json.jbuilder (0.1ms)
+  Rendered books/index.json.jbuilder (99.3ms)
+  Rendered books/index.html.erb within layouts/application (179.2ms)
+Started GET "/" for 127.0.0.1 at 2016-12-29 19:37:27 +0700
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+  Rendering books/index.json.jbuilder
+MONGODB | localhost:27017 | railsreactbook.find | STARTED | {"find"=>"books", "filter"=>{}}
+MONGODB | localhost:27017 | railsreactbook.find | SUCCEEDED | 0.00090082s
+  Rendered books/_book.json.jbuilder (0.6ms)
+  Rendered books/_book.json.jbuilder (0.1ms)
+  Rendered books/_book.json.jbuilder (0.1ms)
+  Rendered books/index.json.jbuilder (5.3ms)
+  Rendered books/index.html.erb within layouts/application (6.9ms)
+Completed 200 OK in 5245ms (Views: 5083.2ms)
+
+
+Completed 200 OK in 6008ms (Views: 5919.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-12-29 19:43:18 +0700
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+  Rendering books/index.json.jbuilder
+MONGODB | localhost:27017 | railsreactbook.find | STARTED | {"find"=>"books", "filter"=>{}}
+MONGODB | localhost:27017 | railsreactbook.find | SUCCEEDED | 0.0009320530000000001s
+  Rendered books/_book.json.jbuilder (0.7ms)
+  Rendered books/_book.json.jbuilder (0.2ms)
+  Rendered books/_book.json.jbuilder (0.1ms)
+  Rendered books/index.json.jbuilder (7.6ms)
+  Rendered books/index.html.erb within layouts/application (10.0ms)
+Completed 200 OK in 2138ms (Views: 2136.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-12-29 19:51:06 +0700
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+  Rendering books/index.json.jbuilder
+MONGODB | localhost:27017 | railsreactbook.find | STARTED | {"find"=>"books", "filter"=>{}}
+MONGODB | localhost:27017 | railsreactbook.find | SUCCEEDED | 0.001164069s
+  Rendered books/_book.json.jbuilder (0.7ms)
+  Rendered books/_book.json.jbuilder (0.3ms)
+  Rendered books/_book.json.jbuilder (0.2ms)
+  Rendered books/index.json.jbuilder (7.6ms)
+  Rendered books/index.html.erb within layouts/application (9.2ms)
+Completed 500 Internal Server Error in 410ms
+
+
+  
+ActionView::Template::Error (SyntaxError: [stdin]:20:6: unexpected ():
+     5:     <%= csrf_meta_tags %>
+     6: 
+     7:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     8:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+     9:   </head>
+    10: 
+    11:   <body>
+  
+app/views/layouts/application.html.erb:8:in `_app_views_layouts_application_html_erb__3684828731126500238_69832836561460'
+  Rendering /home/foo/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /home/foo/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/foo/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (8.2ms)
+  Rendering /home/foo/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/foo/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.5ms)
+  Rendering /home/foo/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/foo/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /home/foo/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (39.1ms)
+Started GET "/" for 127.0.0.1 at 2016-12-29 19:51:48 +0700
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+  Rendering books/index.json.jbuilder
+MONGODB | localhost:27017 | railsreactbook.find | STARTED | {"find"=>"books", "filter"=>{}}
+MONGODB | localhost:27017 | railsreactbook.find | SUCCEEDED | 0.000931763s
+  Rendered books/_book.json.jbuilder (0.5ms)
+  Rendered books/_book.json.jbuilder (0.1ms)
+  Rendered books/_book.json.jbuilder (0.1ms)
+  Rendered books/index.json.jbuilder (5.8ms)
+  Rendered books/index.html.erb within layouts/application (8.1ms)
+Completed 500 Internal Server Error in 344ms
+
+
+  
+ActionView::Template::Error (SyntaxError: [stdin]:20:6: unexpected ():
+     5:     <%= csrf_meta_tags %>
+     6: 
+     7:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     8:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+     9:   </head>
+    10: 
+    11:   <body>
+  
+app/views/layouts/application.html.erb:8:in `_app_views_layouts_application_html_erb__3684828731126500238_69832837889700'
+  Rendering /home/foo/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /home/foo/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/foo/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (8.3ms)
+  Rendering /home/foo/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/foo/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.6ms)
+  Rendering /home/foo/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/foo/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /home/foo/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (34.9ms)
+Started GET "/" for 127.0.0.1 at 2016-12-29 19:52:58 +0700
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+  Rendering books/index.json.jbuilder
+MONGODB | localhost:27017 | railsreactbook.find | STARTED | {"find"=>"books", "filter"=>{}}
+MONGODB | localhost:27017 | railsreactbook.find | SUCCEEDED | 0.000995736s
+  Rendered books/_book.json.jbuilder (0.6ms)
+  Rendered books/_book.json.jbuilder (0.2ms)
+  Rendered books/_book.json.jbuilder (0.1ms)
+  Rendered books/index.json.jbuilder (6.3ms)
+  Rendered books/index.html.erb within layouts/application (7.8ms)
+Completed 500 Internal Server Error in 342ms
+
+
+  
+ActionView::Template::Error (SyntaxError: [stdin]:20:6: unexpected ():
+     5:     <%= csrf_meta_tags %>
+     6: 
+     7:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     8:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+     9:   </head>
+    10: 
+    11:   <body>
+  
+app/views/layouts/application.html.erb:8:in `_app_views_layouts_application_html_erb__3684828731126500238_69832825040340'
+  Rendering /home/foo/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /home/foo/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/foo/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (9.0ms)
+  Rendering /home/foo/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/foo/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.2ms)
+  Rendering /home/foo/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/foo/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /home/foo/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (35.0ms)
+Started GET "/" for 127.0.0.1 at 2016-12-29 19:53:21 +0700
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+  Rendering books/index.json.jbuilder
+MONGODB | localhost:27017 | railsreactbook.find | STARTED | {"find"=>"books", "filter"=>{}}
+MONGODB | localhost:27017 | railsreactbook.find | SUCCEEDED | 0.001045698s
+  Rendered books/_book.json.jbuilder (0.7ms)
+  Rendered books/_book.json.jbuilder (0.1ms)
+  Rendered books/_book.json.jbuilder (0.1ms)
+  Rendered books/index.json.jbuilder (6.0ms)
+  Rendered books/index.html.erb within layouts/application (8.3ms)
+Completed 500 Internal Server Error in 344ms
+
+
+  
+ActionView::Template::Error (SyntaxError: [stdin]:20:6: unexpected ():
+     5:     <%= csrf_meta_tags %>
+     6: 
+     7:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     8:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+     9:   </head>
+    10: 
+    11:   <body>
+  
+app/views/layouts/application.html.erb:8:in `_app_views_layouts_application_html_erb__3684828731126500238_69832577919520'
+  Rendering /home/foo/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /home/foo/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/foo/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (8.3ms)
+  Rendering /home/foo/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/foo/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.9ms)
+  Rendering /home/foo/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/foo/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /home/foo/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (33.8ms)
+Started GET "/" for 127.0.0.1 at 2016-12-29 19:53:37 +0700
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+  Rendering books/index.json.jbuilder
+MONGODB | localhost:27017 | railsreactbook.find | STARTED | {"find"=>"books", "filter"=>{}}
+MONGODB | localhost:27017 | railsreactbook.find | SUCCEEDED | 0.0008027959999999999s
+  Rendered books/_book.json.jbuilder (0.6ms)
+  Rendered books/_book.json.jbuilder (0.1ms)
+  Rendered books/_book.json.jbuilder (0.1ms)
+  Rendered books/index.json.jbuilder (5.2ms)
+  Rendered books/index.html.erb within layouts/application (6.9ms)
+Completed 500 Internal Server Error in 338ms
+
+
+  
+ActionView::Template::Error (SyntaxError: [stdin]:20:6: unexpected ():
+     5:     <%= csrf_meta_tags %>
+     6: 
+     7:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     8:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+     9:   </head>
+    10: 
+    11:   <body>
+  
+app/views/layouts/application.html.erb:8:in `_app_views_layouts_application_html_erb__3684828731126500238_69832841262380'
+  Rendering /home/foo/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /home/foo/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/foo/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (9.7ms)
+  Rendering /home/foo/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/foo/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.1ms)
+  Rendering /home/foo/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/foo/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /home/foo/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (42.1ms)
+Started GET "/" for 127.0.0.1 at 2016-12-29 19:54:56 +0700
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+  Rendering books/index.json.jbuilder
+MONGODB | localhost:27017 | railsreactbook.find | STARTED | {"find"=>"books", "filter"=>{}}
+MONGODB | localhost:27017 | railsreactbook.find | SUCCEEDED | 0.000990577s
+  Rendered books/_book.json.jbuilder (0.7ms)
+  Rendered books/_book.json.jbuilder (0.1ms)
+  Rendered books/_book.json.jbuilder (0.1ms)
+  Rendered books/index.json.jbuilder (6.6ms)
+  Rendered books/index.html.erb within layouts/application (8.6ms)
+Completed 200 OK in 578ms (Views: 576.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-12-29 19:55:46 +0700
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+  Rendering books/index.json.jbuilder
+MONGODB | localhost:27017 | railsreactbook.find | STARTED | {"find"=>"books", "filter"=>{}}
+MONGODB | localhost:27017 | railsreactbook.find | SUCCEEDED | 0.001253021s
+  Rendered books/_book.json.jbuilder (0.7ms)
+  Rendered books/_book.json.jbuilder (0.1ms)
+  Rendered books/_book.json.jbuilder (0.1ms)
+  Rendered books/index.json.jbuilder (6.0ms)
+  Rendered books/index.html.erb within layouts/application (8.1ms)
+Completed 500 Internal Server Error in 358ms
+
+
+  
+ActionView::Template::Error (SyntaxError: [stdin]:23:6: unexpected ():
+     5:     <%= csrf_meta_tags %>
+     6: 
+     7:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     8:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+     9:   </head>
+    10: 
+    11:   <body>
+  
+app/views/layouts/application.html.erb:8:in `_app_views_layouts_application_html_erb__3684828731126500238_69832831449800'
+  Rendering /home/foo/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /home/foo/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/foo/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (8.1ms)
+  Rendering /home/foo/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/foo/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.2ms)
+  Rendering /home/foo/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/foo/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /home/foo/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (35.4ms)
+Started GET "/" for 127.0.0.1 at 2016-12-29 19:57:54 +0700
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+  Rendering books/index.json.jbuilder
+MONGODB | localhost:27017 | railsreactbook.find | STARTED | {"find"=>"books", "filter"=>{}}
+MONGODB | localhost:27017 | railsreactbook.find | SUCCEEDED | 0.0011485890000000002s
+  Rendered books/_book.json.jbuilder (0.6ms)
+  Rendered books/_book.json.jbuilder (0.1ms)
+  Rendered books/_book.json.jbuilder (0.1ms)
+  Rendered books/index.json.jbuilder (5.9ms)
+  Rendered books/index.html.erb within layouts/application (8.1ms)
+Completed 200 OK in 578ms (Views: 576.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-12-29 19:59:44 +0700
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+  Rendering books/index.json.jbuilder
+MONGODB | localhost:27017 | railsreactbook.find | STARTED | {"find"=>"books", "filter"=>{}}
+MONGODB | localhost:27017 | railsreactbook.find | SUCCEEDED | 0.0009999870000000001s
+  Rendered books/_book.json.jbuilder (0.7ms)
+  Rendered books/_book.json.jbuilder (0.1ms)
+  Rendered books/_book.json.jbuilder (0.1ms)
+  Rendered books/index.json.jbuilder (6.3ms)
+  Rendered books/index.html.erb within layouts/application (7.9ms)
+Completed 200 OK in 572ms (Views: 570.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-12-29 20:00:44 +0700
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+  Rendering books/index.json.jbuilder
+MONGODB | localhost:27017 | railsreactbook.find | STARTED | {"find"=>"books", "filter"=>{}}
+MONGODB | localhost:27017 | railsreactbook.find | SUCCEEDED | 0.000842094s
+  Rendered books/_book.json.jbuilder (0.5ms)
+  Rendered books/_book.json.jbuilder (0.1ms)
+  Rendered books/_book.json.jbuilder (0.1ms)
+  Rendered books/index.json.jbuilder (5.1ms)
+  Rendered books/index.html.erb within layouts/application (6.9ms)
+Completed 200 OK in 564ms (Views: 561.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-12-29 20:02:06 +0700
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+  Rendering books/index.json.jbuilder
+MONGODB | localhost:27017 | railsreactbook.find | STARTED | {"find"=>"books", "filter"=>{}}
+MONGODB | localhost:27017 | railsreactbook.find | SUCCEEDED | 0.001361022s
+  Rendered books/_book.json.jbuilder (0.7ms)
+  Rendered books/_book.json.jbuilder (0.1ms)
+  Rendered books/_book.json.jbuilder (0.1ms)
+  Rendered books/index.json.jbuilder (6.7ms)
+  Rendered books/index.html.erb within layouts/application (8.9ms)
+Completed 200 OK in 590ms (Views: 588.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-12-29 20:06:34 +0700
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+  Rendering books/index.json.jbuilder
+MONGODB | localhost:27017 | railsreactbook.find | STARTED | {"find"=>"books", "filter"=>{}}
+MONGODB | localhost:27017 | railsreactbook.find | SUCCEEDED | 0.000815744s
+  Rendered books/_book.json.jbuilder (0.6ms)
+  Rendered books/_book.json.jbuilder (0.1ms)
+  Rendered books/_book.json.jbuilder (0.1ms)
+  Rendered books/index.json.jbuilder (5.0ms)
+  Rendered books/index.html.erb within layouts/application (6.3ms)
+Completed 200 OK in 123ms (Views: 114.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-12-29 20:07:13 +0700
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+  Rendering books/index.json.jbuilder
+MONGODB | localhost:27017 | railsreactbook.find | STARTED | {"find"=>"books", "filter"=>{}}
+MONGODB | localhost:27017 | railsreactbook.find | SUCCEEDED | 0.000922576s
+  Rendered books/_book.json.jbuilder (0.5ms)
+  Rendered books/_book.json.jbuilder (0.1ms)
+  Rendered books/_book.json.jbuilder (0.1ms)
+  Rendered books/index.json.jbuilder (5.5ms)
+  Rendered books/index.html.erb within layouts/application (7.8ms)
+Completed 200 OK in 578ms (Views: 576.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-12-29 20:10:07 +0700
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+  Rendering books/index.json.jbuilder
+MONGODB | localhost:27017 | railsreactbook.find | STARTED | {"find"=>"books", "filter"=>{}}
+MONGODB | localhost:27017 | railsreactbook.find | SUCCEEDED | 0.000925057s
+  Rendered books/_book.json.jbuilder (0.5ms)
+  Rendered books/_book.json.jbuilder (0.1ms)
+  Rendered books/_book.json.jbuilder (0.1ms)
+  Rendered books/index.json.jbuilder (4.9ms)
+  Rendered books/index.html.erb within layouts/application (6.5ms)
+Completed 200 OK in 611ms (Views: 609.1ms)
+
+
+Started POST "/books" for 127.0.0.1 at 2016-12-29 20:12:02 +0700
+Processing by BooksController#create as JSON
+  Parameters: {"book"=>{"title"=>"The success callback is the key", "sinopsis"=>"The success callback is the key of this process, after successfully creating the new record someone will be notified about this action and the state is restored", "price"=>"23", "published_on"=>"2016-12-17", "status"=>""}}
+MONGODB | localhost:27017 | railsreactbook.insert | STARTED | {"insert"=>"books", "documents"=>[{"_id"=>BSON::ObjectId('58650ba2acbd180bace8affb'), "title"=>"The success callback is the key", "sinopsis"=>"The success callback is the key of this process, after successfully creating the new record someone will be ...
+MONGODB | localhost:27017 | railsreactbook.insert | SUCCEEDED | 0.034030382s
+  Rendered books/_book.json.jbuilder (0.9ms)
+Completed 200 OK in 115ms (Views: 7.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-12-29 20:12:48 +0700
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+  Rendering books/index.json.jbuilder
+MONGODB | localhost:27017 | railsreactbook.find | STARTED | {"find"=>"books", "filter"=>{}}
+MONGODB | localhost:27017 | railsreactbook.find | SUCCEEDED | 0.00150643s
+  Rendered books/_book.json.jbuilder (1.0ms)
+  Rendered books/_book.json.jbuilder (0.1ms)
+  Rendered books/_book.json.jbuilder (0.1ms)
+  Rendered books/_book.json.jbuilder (0.1ms)
+  Rendered books/index.json.jbuilder (9.4ms)
+  Rendered books/index.html.erb within layouts/application (11.4ms)
+Completed 200 OK in 110ms (Views: 108.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-12-29 20:13:44 +0700
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+  Rendering books/index.json.jbuilder
+MONGODB | localhost:27017 | railsreactbook.find | STARTED | {"find"=>"books", "filter"=>{}, "sort"=>{"created_at"=>-1}}
+MONGODB | localhost:27017 | railsreactbook.find | SUCCEEDED | 0.001793159s
+  Rendered books/_book.json.jbuilder (0.7ms)
+  Rendered books/_book.json.jbuilder (0.1ms)
+  Rendered books/_book.json.jbuilder (0.1ms)
+  Rendered books/_book.json.jbuilder (0.1ms)
+  Rendered books/index.json.jbuilder (7.7ms)
+  Rendered books/index.html.erb within layouts/application (9.0ms)
+Completed 200 OK in 127ms (Views: 117.6ms)
+
+
+Started POST "/books" for 127.0.0.1 at 2016-12-29 21:03:09 +0700
+Processing by BooksController#create as JSON
+  Parameters: {"book"=>{"title"=>"As you might have guessed", "sinopsis"=>"As you might have guessed, wherever we create our RecordForm element, we need to pass a handleNewRecord property with a method reference into it", "price"=>"45", "published_on"=>"2016-12-31", "status"=>""}}
+MONGODB | localhost:27017 | railsreactbook.insert | STARTED | {"insert"=>"books", "documents"=>[{"_id"=>BSON::ObjectId('5865179dacbd180bace8affc'), "title"=>"As you might have guessed", "sinopsis"=>"As you might have guessed, wherever we create our RecordForm element, we need to pass a handleNewRecord property w...
+MONGODB | localhost:27017 | railsreactbook.insert | SUCCEEDED | 0.002085648s
+  Rendered books/_book.json.jbuilder (1.5ms)
+Completed 200 OK in 17ms (Views: 7.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-12-29 21:03:25 +0700
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+  Rendering books/index.json.jbuilder
+MONGODB | localhost:27017 | railsreactbook.find | STARTED | {"find"=>"books", "filter"=>{}, "sort"=>{"created_at"=>-1}}
+MONGODB | localhost:27017 | railsreactbook.find | SUCCEEDED | 0.0012499759999999999s
+  Rendered books/_book.json.jbuilder (0.7ms)
+  Rendered books/_book.json.jbuilder (0.1ms)
+  Rendered books/_book.json.jbuilder (0.1ms)
+  Rendered books/_book.json.jbuilder (0.1ms)
+  Rendered books/_book.json.jbuilder (0.1ms)
+  Rendered books/index.json.jbuilder (8.8ms)
+  Rendered books/index.html.erb within layouts/application (10.9ms)
+Completed 200 OK in 89ms (Views: 87.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-12-29 21:04:43 +0700
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+  Rendering books/index.json.jbuilder
+MONGODB | localhost:27017 | railsreactbook.find | STARTED | {"find"=>"books", "filter"=>{}, "sort"=>{"created_at"=>-1}}
+MONGODB | localhost:27017 | railsreactbook.find | SUCCEEDED | 0.0010104699999999999s
+  Rendered books/_book.json.jbuilder (0.5ms)
+  Rendered books/_book.json.jbuilder (0.1ms)
+  Rendered books/_book.json.jbuilder (0.1ms)
+  Rendered books/_book.json.jbuilder (0.1ms)
+  Rendered books/_book.json.jbuilder (0.1ms)
+  Rendered books/index.json.jbuilder (6.2ms)
+  Rendered books/index.html.erb within layouts/application (7.7ms)
+Completed 200 OK in 563ms (Views: 561.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-12-29 21:04:52 +0700
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+  Rendering books/index.json.jbuilder
+MONGODB | localhost:27017 | railsreactbook.find | STARTED | {"find"=>"books", "filter"=>{}, "sort"=>{"created_at"=>-1}}
+MONGODB | localhost:27017 | railsreactbook.find | SUCCEEDED | 0.0012999749999999999s
+  Rendered books/_book.json.jbuilder (0.6ms)
+  Rendered books/_book.json.jbuilder (0.1ms)
+  Rendered books/_book.json.jbuilder (0.1ms)
+  Rendered books/_book.json.jbuilder (0.1ms)
+  Rendered books/_book.json.jbuilder (0.1ms)
+  Rendered books/index.json.jbuilder (7.2ms)
+  Rendered books/index.html.erb within layouts/application (9.0ms)
+Completed 200 OK in 599ms (Views: 597.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-12-29 21:05:04 +0700
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+  Rendering books/index.json.jbuilder
+MONGODB | localhost:27017 | railsreactbook.find | STARTED | {"find"=>"books", "filter"=>{}, "sort"=>{"created_at"=>-1}}
+MONGODB | localhost:27017 | railsreactbook.find | SUCCEEDED | 0.00108539s
+  Rendered books/_book.json.jbuilder (0.7ms)
+  Rendered books/_book.json.jbuilder (0.1ms)
+  Rendered books/_book.json.jbuilder (0.1ms)
+  Rendered books/_book.json.jbuilder (0.1ms)
+  Rendered books/_book.json.jbuilder (0.1ms)
+  Rendered books/index.json.jbuilder (7.6ms)
+  Rendered books/index.html.erb within layouts/application (9.2ms)
+Completed 200 OK in 577ms (Views: 575.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-12-29 21:05:19 +0700
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+  Rendering books/index.json.jbuilder
+MONGODB | localhost:27017 | railsreactbook.find | STARTED | {"find"=>"books", "filter"=>{}, "sort"=>{"created_at"=>-1}}
+MONGODB | localhost:27017 | railsreactbook.find | SUCCEEDED | 0.0010735080000000001s
+  Rendered books/_book.json.jbuilder (0.6ms)
+  Rendered books/_book.json.jbuilder (0.1ms)
+  Rendered books/_book.json.jbuilder (0.1ms)
+  Rendered books/_book.json.jbuilder (0.1ms)
+  Rendered books/_book.json.jbuilder (0.1ms)
+  Rendered books/index.json.jbuilder (7.0ms)
+  Rendered books/index.html.erb within layouts/application (8.6ms)
+Completed 200 OK in 570ms (Views: 569.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-12-29 21:43:44 +0700
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+  Rendering books/index.json.jbuilder
+MONGODB | localhost:27017 | railsreactbook.find | STARTED | {"find"=>"books", "filter"=>{}, "sort"=>{"created_at"=>-1}}
+MONGODB | localhost:27017 | railsreactbook.find | SUCCEEDED | 0.0011400380000000001s
+  Rendered books/_book.json.jbuilder (0.8ms)
+  Rendered books/_book.json.jbuilder (0.1ms)
+  Rendered books/_book.json.jbuilder (0.1ms)
+  Rendered books/_book.json.jbuilder (0.1ms)
+  Rendered books/_book.json.jbuilder (0.1ms)
+  Rendered books/index.json.jbuilder (7.3ms)
+  Rendered books/index.html.erb within layouts/application (8.8ms)
+Completed 200 OK in 569ms (Views: 560.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-12-29 21:45:35 +0700
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+  Rendering books/index.json.jbuilder
+MONGODB | localhost:27017 | railsreactbook.find | STARTED | {"find"=>"books", "filter"=>{}, "sort"=>{"created_at"=>-1}}
+MONGODB | localhost:27017 | railsreactbook.find | SUCCEEDED | 0.001310054s
+  Rendered books/_book.json.jbuilder (0.6ms)
+  Rendered books/_book.json.jbuilder (0.1ms)
+  Rendered books/_book.json.jbuilder (0.2ms)
+  Rendered books/_book.json.jbuilder (0.1ms)
+  Rendered books/_book.json.jbuilder (0.1ms)
+  Rendered books/index.json.jbuilder (8.1ms)
+  Rendered books/index.html.erb within layouts/application (9.5ms)
+Completed 200 OK in 97ms (Views: 95.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-12-29 21:55:59 +0700
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+  Rendering books/index.json.jbuilder
+MONGODB | localhost:27017 | railsreactbook.find | STARTED | {"find"=>"books", "filter"=>{}, "sort"=>{"created_at"=>-1}}
+MONGODB | localhost:27017 | railsreactbook.find | SUCCEEDED | 0.0010951420000000001s
+  Rendered books/_book.json.jbuilder (0.5ms)
+  Rendered books/_book.json.jbuilder (0.1ms)
+  Rendered books/_book.json.jbuilder (0.1ms)
+  Rendered books/_book.json.jbuilder (0.1ms)
+  Rendered books/_book.json.jbuilder (0.1ms)
+  Rendered books/index.json.jbuilder (6.4ms)
+  Rendered books/index.html.erb within layouts/application (8.2ms)
+Completed 200 OK in 598ms (Views: 595.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-12-29 21:56:25 +0700
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+  Rendering books/index.json.jbuilder
+MONGODB | localhost:27017 | railsreactbook.find | STARTED | {"find"=>"books", "filter"=>{}, "sort"=>{"created_at"=>-1}}
+MONGODB | localhost:27017 | railsreactbook.find | SUCCEEDED | 0.0012128870000000002s
+  Rendered books/_book.json.jbuilder (0.6ms)
+  Rendered books/_book.json.jbuilder (0.1ms)
+  Rendered books/_book.json.jbuilder (0.1ms)
+  Rendered books/_book.json.jbuilder (0.1ms)
+  Rendered books/_book.json.jbuilder (0.1ms)
+  Rendered books/index.json.jbuilder (7.1ms)
+  Rendered books/index.html.erb within layouts/application (8.8ms)
+Completed 200 OK in 572ms (Views: 570.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-12-29 21:56:50 +0700
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+  Rendering books/index.json.jbuilder
+MONGODB | localhost:27017 | railsreactbook.find | STARTED | {"find"=>"books", "filter"=>{}, "sort"=>{"created_at"=>-1}}
+MONGODB | localhost:27017 | railsreactbook.find | SUCCEEDED | 0.0010821099999999998s
+  Rendered books/_book.json.jbuilder (0.8ms)
+  Rendered books/_book.json.jbuilder (0.1ms)
+  Rendered books/_book.json.jbuilder (0.1ms)
+  Rendered books/_book.json.jbuilder (0.1ms)
+  Rendered books/_book.json.jbuilder (0.1ms)
+  Rendered books/index.json.jbuilder (7.2ms)
+  Rendered books/index.html.erb within layouts/application (8.8ms)
+Completed 200 OK in 591ms (Views: 587.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-12-29 21:57:12 +0700
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+  Rendering books/index.json.jbuilder
+MONGODB | localhost:27017 | railsreactbook.find | STARTED | {"find"=>"books", "filter"=>{}, "sort"=>{"created_at"=>-1}}
+MONGODB | localhost:27017 | railsreactbook.find | SUCCEEDED | 0.001153436s
+  Rendered books/_book.json.jbuilder (0.7ms)
+  Rendered books/_book.json.jbuilder (0.1ms)
+  Rendered books/_book.json.jbuilder (0.1ms)
+  Rendered books/_book.json.jbuilder (0.1ms)
+  Rendered books/_book.json.jbuilder (0.1ms)
+  Rendered books/index.json.jbuilder (8.0ms)
+  Rendered books/index.html.erb within layouts/application (10.0ms)
+Completed 200 OK in 582ms (Views: 579.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-12-29 22:03:37 +0700
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+  Rendering books/index.json.jbuilder
+MONGODB | localhost:27017 | railsreactbook.find | STARTED | {"find"=>"books", "filter"=>{}, "sort"=>{"created_at"=>-1}}
+MONGODB | localhost:27017 | railsreactbook.find | SUCCEEDED | 0.00121992s
+  Rendered books/_book.json.jbuilder (0.6ms)
+  Rendered books/_book.json.jbuilder (0.1ms)
+  Rendered books/_book.json.jbuilder (0.1ms)
+  Rendered books/_book.json.jbuilder (0.1ms)
+  Rendered books/_book.json.jbuilder (0.1ms)
+  Rendered books/index.json.jbuilder (8.1ms)
+  Rendered books/index.html.erb within layouts/application (10.2ms)
+Completed 200 OK in 592ms (Views: 590.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-12-29 22:03:48 +0700
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+  Rendering books/index.json.jbuilder
+MONGODB | localhost:27017 | railsreactbook.find | STARTED | {"find"=>"books", "filter"=>{}, "sort"=>{"created_at"=>-1}}
+MONGODB | localhost:27017 | railsreactbook.find | SUCCEEDED | 0.0010663209999999998s
+  Rendered books/_book.json.jbuilder (0.7ms)
+  Rendered books/_book.json.jbuilder (0.1ms)
+  Rendered books/_book.json.jbuilder (0.1ms)
+  Rendered books/_book.json.jbuilder (0.1ms)
+  Rendered books/_book.json.jbuilder (0.1ms)
+  Rendered books/index.json.jbuilder (7.2ms)
+  Rendered books/index.html.erb within layouts/application (8.7ms)
+Completed 200 OK in 111ms (Views: 109.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-12-29 22:03:53 +0700
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+  Rendering books/index.json.jbuilder
+MONGODB | localhost:27017 | railsreactbook.find | STARTED | {"find"=>"books", "filter"=>{}, "sort"=>{"created_at"=>-1}}
+MONGODB | localhost:27017 | railsreactbook.find | SUCCEEDED | 0.00144672s
+  Rendered books/_book.json.jbuilder (1.0ms)
+  Rendered books/_book.json.jbuilder (0.2ms)
+  Rendered books/_book.json.jbuilder (0.1ms)
+  Rendered books/_book.json.jbuilder (0.1ms)
+  Rendered books/_book.json.jbuilder (0.1ms)
+  Rendered books/index.json.jbuilder (9.4ms)
+  Rendered books/index.html.erb within layouts/application (12.1ms)
+Completed 200 OK in 106ms (Views: 100.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-12-29 22:05:43 +0700
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+  Rendering books/index.json.jbuilder
+MONGODB | localhost:27017 | railsreactbook.find | STARTED | {"find"=>"books", "filter"=>{}, "sort"=>{"created_at"=>-1}}
+MONGODB | localhost:27017 | railsreactbook.find | SUCCEEDED | 0.0017005759999999999s
+  Rendered books/_book.json.jbuilder (0.6ms)
+  Rendered books/_book.json.jbuilder (0.1ms)
+  Rendered books/_book.json.jbuilder (0.1ms)
+  Rendered books/_book.json.jbuilder (0.1ms)
+  Rendered books/_book.json.jbuilder (0.1ms)
+  Rendered books/index.json.jbuilder (8.0ms)
+  Rendered books/index.html.erb within layouts/application (9.9ms)
+Completed 200 OK in 599ms (Views: 596.9ms)
+
+
+Started DELETE "/books/[object%20Object]" for 127.0.0.1 at 2016-12-29 22:05:46 +0700
+Processing by BooksController#destroy as JSON
+  Parameters: {"id"=>"[object Object]"}
+MONGODB | localhost:27017 | railsreactbook.find | STARTED | {"find"=>"books", "filter"=>{"_id"=>"[object Object]"}}
+MONGODB | localhost:27017 | railsreactbook.find | SUCCEEDED | 0.001120533s
+Completed 404 Not Found in 91ms
+
+
+  
+Mongoid::Errors::DocumentNotFound (
+message:
+  Document(s) not found for class Book with id(s) [object Object].
+summary:
+  When calling Book.find with an id or array of ids, each parameter must match a document in the database or this error will be raised. The search was for the id(s): [object Object] ... (1 total) and the following ids were not found: [object Object].
+resolution:
+  Search for an id that is in the database or set the Mongoid.raise_not_found_error configuration option to false, which will cause a nil to be returned instead of raising this error when searching for a single id, or only the matched documents when searching for multiples.):
+  
+app/controllers/books_controller.rb:16:in `destroy'
+  Rendering /home/foo/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.text.erb
+  Rendering /home/foo/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.text.erb
+  Rendered /home/foo/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.text.erb (0.9ms)
+  Rendering /home/foo/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb
+  Rendered /home/foo/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.9ms)
+  Rendering /home/foo/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb
+  Rendered /home/foo/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb (1.1ms)
+  Rendered /home/foo/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.text.erb (24.8ms)
+Started GET "/books/[object%20Object]" for 127.0.0.1 at 2016-12-29 22:05:53 +0700
+  
+AbstractController::ActionNotFound (The action 'show' could not be found for BooksController):
+  
+actionpack (5.0.1) lib/abstract_controller/base.rb:121:in `process'
+actionview (5.0.1) lib/action_view/rendering.rb:30:in `process'
+actionpack (5.0.1) lib/action_controller/metal.rb:190:in `dispatch'
+actionpack (5.0.1) lib/action_controller/metal.rb:262:in `dispatch'
+actionpack (5.0.1) lib/action_dispatch/routing/route_set.rb:50:in `dispatch'
+actionpack (5.0.1) lib/action_dispatch/routing/route_set.rb:32:in `serve'
+actionpack (5.0.1) lib/action_dispatch/journey/router.rb:39:in `block in serve'
+actionpack (5.0.1) lib/action_dispatch/journey/router.rb:26:in `each'
+actionpack (5.0.1) lib/action_dispatch/journey/router.rb:26:in `serve'
+actionpack (5.0.1) lib/action_dispatch/routing/route_set.rb:725:in `call'
+rack (2.0.1) lib/rack/etag.rb:25:in `call'
+rack (2.0.1) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.1) lib/rack/head.rb:12:in `call'
+rack (2.0.1) lib/rack/session/abstract/id.rb:222:in `context'
+rack (2.0.1) lib/rack/session/abstract/id.rb:216:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/cookies.rb:613:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/callbacks.rb:38:in `block in call'
+activesupport (5.0.1) lib/active_support/callbacks.rb:97:in `__run_callbacks__'
+activesupport (5.0.1) lib/active_support/callbacks.rb:750:in `_run_call_callbacks'
+activesupport (5.0.1) lib/active_support/callbacks.rb:90:in `run_callbacks'
+actionpack (5.0.1) lib/action_dispatch/middleware/callbacks.rb:36:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:49:in `call'
+web-console (3.4.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.4.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.4.0) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.4.0) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.1) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.1) lib/rails/engine.rb:522:in `call'
+puma (3.6.2) lib/puma/configuration.rb:225:in `call'
+puma (3.6.2) lib/puma/server.rb:578:in `handle_request'
+puma (3.6.2) lib/puma/server.rb:415:in `process_client'
+puma (3.6.2) lib/puma/server.rb:275:in `block in run'
+puma (3.6.2) lib/puma/thread_pool.rb:116:in `block in spawn_thread'
+  Rendering /home/foo/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/unknown_action.html.erb within rescues/layout
+  Rendered /home/foo/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/unknown_action.html.erb within rescues/layout (0.7ms)
+Started GET "/" for 127.0.0.1 at 2016-12-29 22:06:30 +0700
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+  Rendering books/index.json.jbuilder
+MONGODB | localhost:27017 | railsreactbook.find | STARTED | {"find"=>"books", "filter"=>{}, "sort"=>{"created_at"=>-1}}
+MONGODB | localhost:27017 | railsreactbook.find | SUCCEEDED | 0.001072825s
+  Rendered books/_book.json.jbuilder (0.9ms)
+  Rendered books/_book.json.jbuilder (0.1ms)
+  Rendered books/_book.json.jbuilder (0.1ms)
+  Rendered books/_book.json.jbuilder (0.1ms)
+  Rendered books/_book.json.jbuilder (0.1ms)
+  Rendered books/index.json.jbuilder (8.1ms)
+  Rendered books/index.html.erb within layouts/application (10.1ms)
+Completed 200 OK in 615ms (Views: 613.5ms)
+
+
+Started DELETE "/books/[object%20Object]" for 127.0.0.1 at 2016-12-29 22:07:02 +0700
+Processing by BooksController#destroy as JSON
+  Parameters: {"id"=>"[object Object]"}
+MONGODB | localhost:27017 | railsreactbook.find | STARTED | {"find"=>"books", "filter"=>{"_id"=>"[object Object]"}}
+MONGODB | localhost:27017 | railsreactbook.find | SUCCEEDED | 0.001059571s
+Completed 404 Not Found in 5ms
+
+
+  
+Mongoid::Errors::DocumentNotFound (
+message:
+  Document(s) not found for class Book with id(s) [object Object].
+summary:
+  When calling Book.find with an id or array of ids, each parameter must match a document in the database or this error will be raised. The search was for the id(s): [object Object] ... (1 total) and the following ids were not found: [object Object].
+resolution:
+  Search for an id that is in the database or set the Mongoid.raise_not_found_error configuration option to false, which will cause a nil to be returned instead of raising this error when searching for a single id, or only the matched documents when searching for multiples.):
+  
+app/controllers/books_controller.rb:16:in `destroy'
+  Rendering /home/foo/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.text.erb
+  Rendering /home/foo/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.text.erb
+  Rendered /home/foo/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.text.erb (0.7ms)
+  Rendering /home/foo/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb
+  Rendered /home/foo/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.7ms)
+  Rendering /home/foo/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb
+  Rendered /home/foo/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb (1.0ms)
+  Rendered /home/foo/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.text.erb (24.4ms)
+Started GET "/" for 127.0.0.1 at 2016-12-29 22:08:13 +0700
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+  Rendering books/index.json.jbuilder
+MONGODB | localhost:27017 | railsreactbook.find | STARTED | {"find"=>"books", "filter"=>{}, "sort"=>{"created_at"=>-1}}
+MONGODB | localhost:27017 | railsreactbook.find | SUCCEEDED | 0.001232142s
+  Rendered books/_book.json.jbuilder (0.7ms)
+  Rendered books/_book.json.jbuilder (2.2ms)
+  Rendered books/_book.json.jbuilder (0.1ms)
+  Rendered books/_book.json.jbuilder (0.1ms)
+  Rendered books/_book.json.jbuilder (0.1ms)
+  Rendered books/index.json.jbuilder (9.6ms)
+  Rendered books/index.html.erb within layouts/application (11.4ms)
+Completed 200 OK in 616ms (Views: 614.7ms)
+
+
+Started DELETE "/books/[object%20Object]" for 127.0.0.1 at 2016-12-29 22:08:18 +0700
+Processing by BooksController#destroy as JSON
+  Parameters: {"id"=>"[object Object]"}
+MONGODB | localhost:27017 | railsreactbook.find | STARTED | {"find"=>"books", "filter"=>{"_id"=>"[object Object]"}}
+MONGODB | localhost:27017 | railsreactbook.find | SUCCEEDED | 0.001379185s
+Completed 404 Not Found in 5ms
+
+
+  
+Mongoid::Errors::DocumentNotFound (
+message:
+  Document(s) not found for class Book with id(s) [object Object].
+summary:
+  When calling Book.find with an id or array of ids, each parameter must match a document in the database or this error will be raised. The search was for the id(s): [object Object] ... (1 total) and the following ids were not found: [object Object].
+resolution:
+  Search for an id that is in the database or set the Mongoid.raise_not_found_error configuration option to false, which will cause a nil to be returned instead of raising this error when searching for a single id, or only the matched documents when searching for multiples.):
+  
+app/controllers/books_controller.rb:16:in `destroy'
+  Rendering /home/foo/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.text.erb
+  Rendering /home/foo/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.text.erb
+  Rendered /home/foo/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.text.erb (0.6ms)
+  Rendering /home/foo/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb
+  Rendered /home/foo/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (3.1ms)
+  Rendering /home/foo/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb
+  Rendered /home/foo/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb (0.9ms)
+  Rendered /home/foo/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.text.erb (25.5ms)
+Started GET "/" for 127.0.0.1 at 2016-12-29 22:08:42 +0700
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+  Rendering books/index.json.jbuilder
+MONGODB | localhost:27017 | railsreactbook.find | STARTED | {"find"=>"books", "filter"=>{}, "sort"=>{"created_at"=>-1}}
+MONGODB | localhost:27017 | railsreactbook.find | SUCCEEDED | 0.0009966740000000001s
+  Rendered books/_book.json.jbuilder (0.8ms)
+  Rendered books/_book.json.jbuilder (0.1ms)
+  Rendered books/_book.json.jbuilder (0.1ms)
+  Rendered books/_book.json.jbuilder (0.1ms)
+  Rendered books/_book.json.jbuilder (0.1ms)
+  Rendered books/index.json.jbuilder (7.5ms)
+  Rendered books/index.html.erb within layouts/application (9.5ms)
+Completed 200 OK in 613ms (Views: 610.3ms)
+
+
+Started DELETE "/books/undefined" for 127.0.0.1 at 2016-12-29 22:08:51 +0700
+Processing by BooksController#destroy as JSON
+  Parameters: {"id"=>"undefined"}
+MONGODB | localhost:27017 | railsreactbook.find | STARTED | {"find"=>"books", "filter"=>{"_id"=>"undefined"}}
+MONGODB | localhost:27017 | railsreactbook.find | SUCCEEDED | 0.004010870000000001s
+Completed 404 Not Found in 9ms
+
+
+  
+Mongoid::Errors::DocumentNotFound (
+message:
+  Document(s) not found for class Book with id(s) undefined.
+summary:
+  When calling Book.find with an id or array of ids, each parameter must match a document in the database or this error will be raised. The search was for the id(s): undefined ... (1 total) and the following ids were not found: undefined.
+resolution:
+  Search for an id that is in the database or set the Mongoid.raise_not_found_error configuration option to false, which will cause a nil to be returned instead of raising this error when searching for a single id, or only the matched documents when searching for multiples.):
+  
+app/controllers/books_controller.rb:16:in `destroy'
+  Rendering /home/foo/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.text.erb
+  Rendering /home/foo/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.text.erb
+  Rendered /home/foo/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.text.erb (0.8ms)
+  Rendering /home/foo/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb
+  Rendered /home/foo/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.8ms)
+  Rendering /home/foo/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb
+  Rendered /home/foo/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb (1.1ms)
+  Rendered /home/foo/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.text.erb (25.5ms)
+Started GET "/" for 127.0.0.1 at 2016-12-29 22:09:09 +0700
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+  Rendering books/index.json.jbuilder
+MONGODB | localhost:27017 | railsreactbook.find | STARTED | {"find"=>"books", "filter"=>{}, "sort"=>{"created_at"=>-1}}
+MONGODB | localhost:27017 | railsreactbook.find | SUCCEEDED | 0.001276431s
+  Rendered books/_book.json.jbuilder (0.7ms)
+  Rendered books/_book.json.jbuilder (0.1ms)
+  Rendered books/_book.json.jbuilder (0.2ms)
+  Rendered books/_book.json.jbuilder (0.1ms)
+  Rendered books/_book.json.jbuilder (0.1ms)
+  Rendered books/index.json.jbuilder (8.8ms)
+  Rendered books/index.html.erb within layouts/application (11.1ms)
+Completed 200 OK in 92ms (Views: 88.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-12-29 22:09:36 +0700
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+  Rendering books/index.json.jbuilder
+MONGODB | localhost:27017 | railsreactbook.find | STARTED | {"find"=>"books", "filter"=>{}, "sort"=>{"created_at"=>-1}}
+MONGODB | localhost:27017 | railsreactbook.find | SUCCEEDED | 0.00115523s
+  Rendered books/_book.json.jbuilder (14.9ms)
+  Rendered books/_book.json.jbuilder (0.1ms)
+  Rendered books/_book.json.jbuilder (0.1ms)
+  Rendered books/_book.json.jbuilder (0.1ms)
+  Rendered books/_book.json.jbuilder (0.1ms)
+  Rendered books/index.json.jbuilder (21.9ms)
+  Rendered books/index.html.erb within layouts/application (23.6ms)
+Completed 200 OK in 603ms (Views: 601.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-12-29 22:11:44 +0700
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+  Rendering books/index.json.jbuilder
+MONGODB | localhost:27017 | railsreactbook.find | STARTED | {"find"=>"books", "filter"=>{}, "sort"=>{"created_at"=>-1}}
+MONGODB | localhost:27017 | railsreactbook.find | SUCCEEDED | 0.000982938s
+  Rendered books/_book.json.jbuilder (0.6ms)
+  Rendered books/_book.json.jbuilder (0.1ms)
+  Rendered books/_book.json.jbuilder (0.1ms)
+  Rendered books/_book.json.jbuilder (0.2ms)
+  Rendered books/_book.json.jbuilder (0.1ms)
+  Rendered books/index.json.jbuilder (6.4ms)
+  Rendered books/index.html.erb within layouts/application (7.8ms)
+Completed 200 OK in 92ms (Views: 88.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-12-29 22:14:29 +0700
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+  Rendering books/index.json.jbuilder
+MONGODB | localhost:27017 | railsreactbook.find | STARTED | {"find"=>"books", "filter"=>{}, "sort"=>{"created_at"=>-1}}
+MONGODB | localhost:27017 | railsreactbook.find | SUCCEEDED | 0.000986386s
+  Rendered books/_book.json.jbuilder (0.8ms)
+  Rendered books/_book.json.jbuilder (0.1ms)
+  Rendered books/_book.json.jbuilder (0.1ms)
+  Rendered books/_book.json.jbuilder (0.1ms)
+  Rendered books/_book.json.jbuilder (0.1ms)
+  Rendered books/index.json.jbuilder (8.1ms)
+  Rendered books/index.html.erb within layouts/application (9.9ms)
+Completed 200 OK in 610ms (Views: 608.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-12-29 22:15:10 +0700
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+  Rendering books/index.json.jbuilder
+MONGODB | localhost:27017 | railsreactbook.find | STARTED | {"find"=>"books", "filter"=>{}, "sort"=>{"created_at"=>-1}}
+MONGODB | localhost:27017 | railsreactbook.find | SUCCEEDED | 0.000965326s
+  Rendered books/_book.json.jbuilder (0.5ms)
+  Rendered books/_book.json.jbuilder (0.1ms)
+  Rendered books/_book.json.jbuilder (0.1ms)
+  Rendered books/_book.json.jbuilder (0.1ms)
+  Rendered books/_book.json.jbuilder (0.1ms)
+  Rendered books/index.json.jbuilder (7.1ms)
+  Rendered books/index.html.erb within layouts/application (9.0ms)
+Completed 200 OK in 89ms (Views: 86.2ms)
+
+
+Started DELETE "/books/[object%20Object]" for 127.0.0.1 at 2016-12-29 22:21:12 +0700
+Processing by BooksController#destroy as JSON
+  Parameters: {"id"=>"[object Object]"}
+MONGODB | localhost:27017 | railsreactbook.find | STARTED | {"find"=>"books", "filter"=>{"_id"=>"[object Object]"}}
+MONGODB | localhost:27017 | railsreactbook.find | SUCCEEDED | 0.001451937s
+Completed 404 Not Found in 6ms
+
+
+  
+Mongoid::Errors::DocumentNotFound (
+message:
+  Document(s) not found for class Book with id(s) [object Object].
+summary:
+  When calling Book.find with an id or array of ids, each parameter must match a document in the database or this error will be raised. The search was for the id(s): [object Object] ... (1 total) and the following ids were not found: [object Object].
+resolution:
+  Search for an id that is in the database or set the Mongoid.raise_not_found_error configuration option to false, which will cause a nil to be returned instead of raising this error when searching for a single id, or only the matched documents when searching for multiples.):
+  
+app/controllers/books_controller.rb:16:in `destroy'
+  Rendering /home/foo/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.text.erb
+  Rendering /home/foo/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.text.erb
+  Rendered /home/foo/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.text.erb (0.7ms)
+  Rendering /home/foo/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb
+  Rendered /home/foo/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.8ms)
+  Rendering /home/foo/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb
+  Rendered /home/foo/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb (0.9ms)
+  Rendered /home/foo/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.text.erb (24.5ms)
+Started GET "/books/[object%20Object]" for 127.0.0.1 at 2016-12-29 22:21:24 +0700
+  
+AbstractController::ActionNotFound (The action 'show' could not be found for BooksController):
+  
+actionpack (5.0.1) lib/abstract_controller/base.rb:121:in `process'
+actionview (5.0.1) lib/action_view/rendering.rb:30:in `process'
+actionpack (5.0.1) lib/action_controller/metal.rb:190:in `dispatch'
+actionpack (5.0.1) lib/action_controller/metal.rb:262:in `dispatch'
+actionpack (5.0.1) lib/action_dispatch/routing/route_set.rb:50:in `dispatch'
+actionpack (5.0.1) lib/action_dispatch/routing/route_set.rb:32:in `serve'
+actionpack (5.0.1) lib/action_dispatch/journey/router.rb:39:in `block in serve'
+actionpack (5.0.1) lib/action_dispatch/journey/router.rb:26:in `each'
+actionpack (5.0.1) lib/action_dispatch/journey/router.rb:26:in `serve'
+actionpack (5.0.1) lib/action_dispatch/routing/route_set.rb:725:in `call'
+rack (2.0.1) lib/rack/etag.rb:25:in `call'
+rack (2.0.1) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.1) lib/rack/head.rb:12:in `call'
+rack (2.0.1) lib/rack/session/abstract/id.rb:222:in `context'
+rack (2.0.1) lib/rack/session/abstract/id.rb:216:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/cookies.rb:613:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/callbacks.rb:38:in `block in call'
+activesupport (5.0.1) lib/active_support/callbacks.rb:97:in `__run_callbacks__'
+activesupport (5.0.1) lib/active_support/callbacks.rb:750:in `_run_call_callbacks'
+activesupport (5.0.1) lib/active_support/callbacks.rb:90:in `run_callbacks'
+actionpack (5.0.1) lib/action_dispatch/middleware/callbacks.rb:36:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:49:in `call'
+web-console (3.4.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.4.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.4.0) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.4.0) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.1) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.1) lib/rails/engine.rb:522:in `call'
+puma (3.6.2) lib/puma/configuration.rb:225:in `call'
+puma (3.6.2) lib/puma/server.rb:578:in `handle_request'
+puma (3.6.2) lib/puma/server.rb:415:in `process_client'
+puma (3.6.2) lib/puma/server.rb:275:in `block in run'
+puma (3.6.2) lib/puma/thread_pool.rb:116:in `block in spawn_thread'
+  Rendering /home/foo/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/unknown_action.html.erb within rescues/layout
+  Rendered /home/foo/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/unknown_action.html.erb within rescues/layout (0.6ms)
+Started GET "/" for 127.0.0.1 at 2016-12-29 23:24:08 +0700
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+  Rendering books/index.json.jbuilder
+MONGODB | localhost:27017 | railsreactbook.find | STARTED | {"find"=>"books", "filter"=>{}, "sort"=>{"created_at"=>-1}}
+MONGODB | localhost:27017 | railsreactbook.find | SUCCEEDED | 0.000981951s
+  Rendered books/_book.json.jbuilder (0.8ms)
+  Rendered books/_book.json.jbuilder (0.1ms)
+  Rendered books/_book.json.jbuilder (0.1ms)
+  Rendered books/_book.json.jbuilder (0.1ms)
+  Rendered books/_book.json.jbuilder (0.1ms)
+  Rendered books/index.json.jbuilder (6.8ms)
+  Rendered books/index.html.erb within layouts/application (8.3ms)
+Completed 500 Internal Server Error in 433ms
+
+
+  
+ActionView::Template::Error (SyntaxError: [stdin]:114:24: unexpected ,):
+     5:     <%= csrf_meta_tags %>
+     6: 
+     7:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     8:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+     9:   </head>
+    10: 
+    11:   <body>
+  
+app/views/layouts/application.html.erb:8:in `_app_views_layouts_application_html_erb__3684828731126500238_69833014314400'
+  Rendering /home/foo/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /home/foo/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/foo/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (7.7ms)
+  Rendering /home/foo/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/foo/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.7ms)
+  Rendering /home/foo/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/foo/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /home/foo/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (34.2ms)
+Started GET "/" for 127.0.0.1 at 2016-12-29 23:24:29 +0700
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+  Rendering books/index.json.jbuilder
+MONGODB | localhost:27017 | railsreactbook.find | STARTED | {"find"=>"books", "filter"=>{}, "sort"=>{"created_at"=>-1}}
+MONGODB | localhost:27017 | railsreactbook.find | SUCCEEDED | 0.001084444s
+  Rendered books/_book.json.jbuilder (0.6ms)
+  Rendered books/_book.json.jbuilder (0.1ms)
+  Rendered books/_book.json.jbuilder (0.1ms)
+  Rendered books/_book.json.jbuilder (0.1ms)
+  Rendered books/_book.json.jbuilder (0.1ms)
+  Rendered books/index.json.jbuilder (7.2ms)
+  Rendered books/index.html.erb within layouts/application (9.0ms)
+Completed 500 Internal Server Error in 380ms
+
+
+  
+ActionView::Template::Error (SyntaxError: [stdin]:114:24: unexpected ,):
+     5:     <%= csrf_meta_tags %>
+     6: 
+     7:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     8:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+     9:   </head>
+    10: 
+    11:   <body>
+  
+app/views/layouts/application.html.erb:8:in `_app_views_layouts_application_html_erb__3684828731126500238_69832827878900'
+  Rendering /home/foo/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /home/foo/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/foo/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (7.3ms)
+  Rendering /home/foo/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/foo/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.1ms)
+  Rendering /home/foo/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/foo/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /home/foo/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (33.3ms)
+Started GET "/" for 127.0.0.1 at 2016-12-29 23:24:55 +0700
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+  Rendering books/index.json.jbuilder
+MONGODB | localhost:27017 | railsreactbook.find | STARTED | {"find"=>"books", "filter"=>{}, "sort"=>{"created_at"=>-1}}
+MONGODB | localhost:27017 | railsreactbook.find | SUCCEEDED | 0.001055509s
+  Rendered books/_book.json.jbuilder (0.8ms)
+  Rendered books/_book.json.jbuilder (0.2ms)
+  Rendered books/_book.json.jbuilder (0.1ms)
+  Rendered books/_book.json.jbuilder (0.1ms)
+  Rendered books/_book.json.jbuilder (0.1ms)
+  Rendered books/index.json.jbuilder (7.8ms)
+  Rendered books/index.html.erb within layouts/application (9.4ms)
+Completed 500 Internal Server Error in 400ms
+
+
+  
+ActionView::Template::Error (SyntaxError: [stdin]:114:24: unexpected ,):
+     5:     <%= csrf_meta_tags %>
+     6: 
+     7:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     8:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+     9:   </head>
+    10: 
+    11:   <body>
+  
+app/views/layouts/application.html.erb:8:in `_app_views_layouts_application_html_erb__3684828731126500238_69832841360380'
+  Rendering /home/foo/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /home/foo/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/foo/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (8.5ms)
+  Rendering /home/foo/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/foo/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.8ms)
+  Rendering /home/foo/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/foo/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /home/foo/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (35.9ms)
+Started GET "/" for 127.0.0.1 at 2016-12-29 23:26:50 +0700
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+  Rendering books/index.json.jbuilder
+MONGODB | localhost:27017 | railsreactbook.find | STARTED | {"find"=>"books", "filter"=>{}, "sort"=>{"created_at"=>-1}}
+MONGODB | localhost:27017 | railsreactbook.find | SUCCEEDED | 0.001096247s
+  Rendered books/_book.json.jbuilder (0.5ms)
+  Rendered books/_book.json.jbuilder (0.1ms)
+  Rendered books/_book.json.jbuilder (0.1ms)
+  Rendered books/_book.json.jbuilder (0.1ms)
+  Rendered books/_book.json.jbuilder (0.1ms)
+  Rendered books/index.json.jbuilder (7.0ms)
+  Rendered books/index.html.erb within layouts/application (8.7ms)
+Completed 200 OK in 588ms (Views: 585.7ms)
+
+
+Started DELETE "/books/[object%20Object]" for 127.0.0.1 at 2016-12-29 23:26:57 +0700
+Processing by BooksController#destroy as JSON
+  Parameters: {"id"=>"[object Object]"}
+MONGODB | localhost:27017 | railsreactbook.find | STARTED | {"find"=>"books", "filter"=>{"_id"=>"[object Object]"}}
+MONGODB | localhost:27017 | railsreactbook.find | SUCCEEDED | 0.0008010410000000001s
+Completed 404 Not Found in 4ms
+
+
+  
+Mongoid::Errors::DocumentNotFound (
+message:
+  Document(s) not found for class Book with id(s) [object Object].
+summary:
+  When calling Book.find with an id or array of ids, each parameter must match a document in the database or this error will be raised. The search was for the id(s): [object Object] ... (1 total) and the following ids were not found: [object Object].
+resolution:
+  Search for an id that is in the database or set the Mongoid.raise_not_found_error configuration option to false, which will cause a nil to be returned instead of raising this error when searching for a single id, or only the matched documents when searching for multiples.):
+  
+app/controllers/books_controller.rb:16:in `destroy'
+  Rendering /home/foo/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.text.erb
+  Rendering /home/foo/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.text.erb
+  Rendered /home/foo/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.text.erb (0.6ms)
+  Rendering /home/foo/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb
+  Rendered /home/foo/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.7ms)
+  Rendering /home/foo/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb
+  Rendered /home/foo/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb (0.8ms)
+  Rendered /home/foo/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.text.erb (23.9ms)
+Started GET "/" for 127.0.0.1 at 2016-12-30 01:04:15 +0700
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+  Rendering books/index.json.jbuilder
+MONGODB | localhost:27017 | railsreactbook.find | STARTED | {"find"=>"books", "filter"=>{}, "sort"=>{"created_at"=>-1}}
+MONGODB | localhost:27017 | railsreactbook.find | SUCCEEDED | 0.001555474s
+  Rendered books/_book.json.jbuilder (0.8ms)
+  Rendered books/_book.json.jbuilder (0.2ms)
+  Rendered books/_book.json.jbuilder (0.1ms)
+  Rendered books/_book.json.jbuilder (0.1ms)
+  Rendered books/_book.json.jbuilder (0.2ms)
+  Rendered books/index.json.jbuilder (9.9ms)
+  Rendered books/index.html.erb within layouts/application (35.0ms)
+Completed 200 OK in 722ms (Views: 720.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-12-30 01:04:42 +0700
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+  Rendering books/index.json.jbuilder
+MONGODB | localhost:27017 | railsreactbook.find | STARTED | {"find"=>"books", "filter"=>{}, "sort"=>{"created_at"=>-1}}
+MONGODB | localhost:27017 | railsreactbook.find | SUCCEEDED | 0.001107158s
+  Rendered books/_book.json.jbuilder (0.8ms)
+  Rendered books/_book.json.jbuilder (0.1ms)
+  Rendered books/_book.json.jbuilder (0.1ms)
+  Rendered books/_book.json.jbuilder (0.1ms)
+  Rendered books/_book.json.jbuilder (0.1ms)
+  Rendered books/index.json.jbuilder (7.3ms)
+  Rendered books/index.html.erb within layouts/application (9.0ms)
+Completed 200 OK in 625ms (Views: 623.6ms)
+
+
+Started DELETE "/books/5865179dacbd180bace8affc" for 127.0.0.1 at 2016-12-30 01:04:46 +0700
+Processing by BooksController#destroy as JSON
+  Parameters: {"id"=>"5865179dacbd180bace8affc"}
+MONGODB | localhost:27017 | railsreactbook.find | STARTED | {"find"=>"books", "filter"=>{"_id"=>BSON::ObjectId('5865179dacbd180bace8affc')}}
+MONGODB | localhost:27017 | railsreactbook.find | SUCCEEDED | 0.0023298449999999997s
+MONGODB | localhost:27017 | railsreactbook.delete | STARTED | {"delete"=>"books", "deletes"=>[{"q"=>{"_id"=>BSON::ObjectId('5865179dacbd180bace8affc')}, "limit"=>1}], "ordered"=>true}
+MONGODB | localhost:27017 | railsreactbook.delete | SUCCEEDED | 0.022409566s
+Completed 204 No Content in 29ms
+
+
+Started GET "/" for 127.0.0.1 at 2016-12-30 01:07:09 +0700
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+  Rendering books/index.json.jbuilder
+MONGODB | localhost:27017 | railsreactbook.find | STARTED | {"find"=>"books", "filter"=>{}, "sort"=>{"created_at"=>-1}}
+MONGODB | localhost:27017 | railsreactbook.find | SUCCEEDED | 0.001223077s
+  Rendered books/_book.json.jbuilder (0.7ms)
+  Rendered books/_book.json.jbuilder (0.1ms)
+  Rendered books/_book.json.jbuilder (0.1ms)
+  Rendered books/_book.json.jbuilder (0.1ms)
+  Rendered books/index.json.jbuilder (6.8ms)
+  Rendered books/index.html.erb within layouts/application (8.6ms)
+Completed 200 OK in 602ms (Views: 599.9ms)
+
+
+Started DELETE "/books/58650ba2acbd180bace8affb" for 127.0.0.1 at 2016-12-30 01:07:21 +0700
+Processing by BooksController#destroy as JSON
+  Parameters: {"id"=>"58650ba2acbd180bace8affb"}
+MONGODB | localhost:27017 | railsreactbook.find | STARTED | {"find"=>"books", "filter"=>{"_id"=>BSON::ObjectId('58650ba2acbd180bace8affb')}}
+MONGODB | localhost:27017 | railsreactbook.find | SUCCEEDED | 0.00085447s
+MONGODB | localhost:27017 | railsreactbook.delete | STARTED | {"delete"=>"books", "deletes"=>[{"q"=>{"_id"=>BSON::ObjectId('58650ba2acbd180bace8affb')}, "limit"=>1}], "ordered"=>true}
+MONGODB | localhost:27017 | railsreactbook.delete | SUCCEEDED | 0.000438622s
+Completed 204 No Content in 4ms
+
+
+Started GET "/" for 127.0.0.1 at 2016-12-30 01:07:24 +0700
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+  Rendering books/index.json.jbuilder
+MONGODB | localhost:27017 | railsreactbook.find | STARTED | {"find"=>"books", "filter"=>{}, "sort"=>{"created_at"=>-1}}
+MONGODB | localhost:27017 | railsreactbook.find | SUCCEEDED | 0.000870881s
+  Rendered books/_book.json.jbuilder (0.6ms)
+  Rendered books/_book.json.jbuilder (0.1ms)
+  Rendered books/_book.json.jbuilder (0.1ms)
+  Rendered books/index.json.jbuilder (5.4ms)
+  Rendered books/index.html.erb within layouts/application (6.9ms)
+Completed 200 OK in 88ms (Views: 86.5ms)
+
+
+Started DELETE "/books/58637533acbd1820c5fdaa4c" for 127.0.0.1 at 2016-12-30 01:07:49 +0700
+Processing by BooksController#destroy as JSON
+  Parameters: {"id"=>"58637533acbd1820c5fdaa4c"}
+MONGODB | localhost:27017 | railsreactbook.find | STARTED | {"find"=>"books", "filter"=>{"_id"=>BSON::ObjectId('58637533acbd1820c5fdaa4c')}}
+MONGODB | localhost:27017 | railsreactbook.find | SUCCEEDED | 0.0009067340000000001s
+MONGODB | localhost:27017 | railsreactbook.delete | STARTED | {"delete"=>"books", "deletes"=>[{"q"=>{"_id"=>BSON::ObjectId('58637533acbd1820c5fdaa4c')}, "limit"=>1}], "ordered"=>true}
+MONGODB | localhost:27017 | railsreactbook.delete | SUCCEEDED | 0.000622685s
+Completed 204 No Content in 4ms
+
+
+Started GET "/" for 127.0.0.1 at 2016-12-30 01:08:30 +0700
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+  Rendering books/index.json.jbuilder
+MONGODB | localhost:27017 | railsreactbook.find | STARTED | {"find"=>"books", "filter"=>{}, "sort"=>{"created_at"=>-1}}
+MONGODB | localhost:27017 | railsreactbook.find | SUCCEEDED | 0.00097397s
+  Rendered books/_book.json.jbuilder (0.9ms)
+  Rendered books/_book.json.jbuilder (0.1ms)
+  Rendered books/index.json.jbuilder (5.5ms)
+  Rendered books/index.html.erb within layouts/application (7.2ms)
+Completed 200 OK in 104ms (Views: 102.3ms)
+
+
+Started POST "/books" for 127.0.0.1 at 2016-12-30 01:09:01 +0700
+Processing by BooksController#create as JSON
+  Parameters: {"book"=>{"title"=>"Another difference is that you", "sinopsis"=>"Another difference is that you cannot return false to prevent default behavior in React. You must call preventDefault explicitly", "price"=>"43", "published_on"=>"2016-12-14", "status"=>""}}
+MONGODB | localhost:27017 | railsreactbook.insert | STARTED | {"insert"=>"books", "documents"=>[{"_id"=>BSON::ObjectId('5865513dacbd180bace8affd'), "title"=>"Another difference is that you", "sinopsis"=>"Another difference is that you cannot return false to prevent default behavior in React. You must call preven...
+MONGODB | localhost:27017 | railsreactbook.insert | SUCCEEDED | 0.000800142s
+  Rendered books/_book.json.jbuilder (1.1ms)
+Completed 200 OK in 10ms (Views: 5.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-12-30 01:17:08 +0700
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+  Rendering books/index.json.jbuilder
+MONGODB | localhost:27017 | railsreactbook.find | STARTED | {"find"=>"books", "filter"=>{}, "sort"=>{"created_at"=>-1}}
+MONGODB | localhost:27017 | railsreactbook.find | SUCCEEDED | 0.001033239s
+  Rendered books/_book.json.jbuilder (0.6ms)
+  Rendered books/_book.json.jbuilder (0.1ms)
+  Rendered books/_book.json.jbuilder (0.1ms)
+  Rendered books/index.json.jbuilder (6.0ms)
+  Rendered books/index.html.erb within layouts/application (7.8ms)
+Completed 200 OK in 596ms (Views: 592.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-12-30 01:20:13 +0700
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+  Rendering books/index.json.jbuilder
+MONGODB | localhost:27017 | railsreactbook.find | STARTED | {"find"=>"books", "filter"=>{}, "sort"=>{"created_at"=>-1}}
+MONGODB | localhost:27017 | railsreactbook.find | SUCCEEDED | 0.0008386289999999999s
+  Rendered books/_book.json.jbuilder (0.5ms)
+  Rendered books/_book.json.jbuilder (0.1ms)
+  Rendered books/_book.json.jbuilder (0.1ms)
+  Rendered books/index.json.jbuilder (4.8ms)
+  Rendered books/index.html.erb within layouts/application (6.1ms)
+Completed 200 OK in 644ms (Views: 641.5ms)
+
+
+Started DELETE "/books/5865513dacbd180bace8affd" for 127.0.0.1 at 2016-12-30 01:20:16 +0700
+Processing by BooksController#destroy as JSON
+  Parameters: {"id"=>"5865513dacbd180bace8affd"}
+MONGODB | localhost:27017 | railsreactbook.find | STARTED | {"find"=>"books", "filter"=>{"_id"=>BSON::ObjectId('5865513dacbd180bace8affd')}}
+MONGODB | localhost:27017 | railsreactbook.find | SUCCEEDED | 0.001307811s
+MONGODB | localhost:27017 | railsreactbook.delete | STARTED | {"delete"=>"books", "deletes"=>[{"q"=>{"_id"=>BSON::ObjectId('5865513dacbd180bace8affd')}, "limit"=>1}], "ordered"=>true}
+MONGODB | localhost:27017 | railsreactbook.delete | SUCCEEDED | 0.000746563s
+Completed 204 No Content in 7ms
+
+
+Started GET "/" for 127.0.0.1 at 2016-12-30 01:20:27 +0700
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+  Rendering books/index.json.jbuilder
+MONGODB | localhost:27017 | railsreactbook.find | STARTED | {"find"=>"books", "filter"=>{}, "sort"=>{"created_at"=>-1}}
+MONGODB | localhost:27017 | railsreactbook.find | SUCCEEDED | 0.000870596s
+  Rendered books/_book.json.jbuilder (0.6ms)
+  Rendered books/_book.json.jbuilder (0.2ms)
+  Rendered books/index.json.jbuilder (5.1ms)
+  Rendered books/index.html.erb within layouts/application (6.8ms)
+Completed 200 OK in 88ms (Views: 86.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-12-30 01:21:02 +0700
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+  Rendering books/index.json.jbuilder
+MONGODB | localhost:27017 | railsreactbook.find | STARTED | {"find"=>"books", "filter"=>{}, "sort"=>{"created_at"=>-1}}
+MONGODB | localhost:27017 | railsreactbook.find | SUCCEEDED | 0.0010851279999999999s
+  Rendered books/_book.json.jbuilder (0.7ms)
+  Rendered books/_book.json.jbuilder (0.1ms)
+  Rendered books/index.json.jbuilder (6.8ms)
+  Rendered books/index.html.erb within layouts/application (8.6ms)
+Completed 200 OK in 652ms (Views: 649.8ms)
+
+
+Started DELETE "/books/586373eeacbd1820c5fdaa4b" for 127.0.0.1 at 2016-12-30 01:21:05 +0700
+Processing by BooksController#destroy as JSON
+  Parameters: {"id"=>"586373eeacbd1820c5fdaa4b"}
+MONGODB | localhost:27017 | railsreactbook.find | STARTED | {"find"=>"books", "filter"=>{"_id"=>BSON::ObjectId('586373eeacbd1820c5fdaa4b')}}
+MONGODB | localhost:27017 | railsreactbook.find | SUCCEEDED | 0.001087215s
+MONGODB | localhost:27017 | railsreactbook.delete | STARTED | {"delete"=>"books", "deletes"=>[{"q"=>{"_id"=>BSON::ObjectId('586373eeacbd1820c5fdaa4b')}, "limit"=>1}], "ordered"=>true}
+MONGODB | localhost:27017 | railsreactbook.delete | SUCCEEDED | 0.0005851119999999999s
+Completed 204 No Content in 6ms
+
+
+Started GET "/" for 127.0.0.1 at 2016-12-30 01:21:14 +0700
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+  Rendering books/index.json.jbuilder
+MONGODB | localhost:27017 | railsreactbook.find | STARTED | {"find"=>"books", "filter"=>{}, "sort"=>{"created_at"=>-1}}
+MONGODB | localhost:27017 | railsreactbook.find | SUCCEEDED | 0.00116796s
+  Rendered books/_book.json.jbuilder (0.8ms)
+  Rendered books/index.json.jbuilder (4.6ms)
+  Rendered books/index.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 99ms (Views: 81.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-12-30 01:23:01 +0700
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+  Rendering books/index.json.jbuilder
+MONGODB | localhost:27017 | railsreactbook.find | STARTED | {"find"=>"books", "filter"=>{}, "sort"=>{"created_at"=>-1}}
+MONGODB | localhost:27017 | railsreactbook.find | SUCCEEDED | 0.001092265s
+  Rendered books/_book.json.jbuilder (0.8ms)
+  Rendered books/index.json.jbuilder (4.5ms)
+  Rendered books/index.html.erb within layouts/application (6.3ms)
+Completed 200 OK in 638ms (Views: 635.7ms)
+
+
+Started POST "/books" for 127.0.0.1 at 2016-12-30 01:23:26 +0700
+Processing by BooksController#create as JSON
+  Parameters: {"book"=>{"title"=>"The problem with this syntax", "sinopsis"=>"When the delete button gets clicked, handleDelete sends an AJAX request to the server to delete the record in the backend and, after this, it notifies the parent ", "price"=>"34", "published_on"=>"2016-12-22", "status"=>""}}
+MONGODB | localhost:27017 | railsreactbook.insert | STARTED | {"insert"=>"books", "documents"=>[{"_id"=>BSON::ObjectId('5865549eacbd180bace8affe'), "title"=>"The problem with this syntax", "sinopsis"=>"When the delete button gets clicked, handleDelete sends an AJAX request to the server to delete the record in t...
+MONGODB | localhost:27017 | railsreactbook.insert | SUCCEEDED | 0.001220353s
+  Rendered books/_book.json.jbuilder (1.1ms)
+Completed 200 OK in 12ms (Views: 6.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-12-30 01:23:29 +0700
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+  Rendering books/index.json.jbuilder
+MONGODB | localhost:27017 | railsreactbook.find | STARTED | {"find"=>"books", "filter"=>{}, "sort"=>{"created_at"=>-1}}
+MONGODB | localhost:27017 | railsreactbook.find | SUCCEEDED | 0.001205602s
+  Rendered books/_book.json.jbuilder (0.6ms)
+  Rendered books/_book.json.jbuilder (0.1ms)
+  Rendered books/index.json.jbuilder (5.5ms)
+  Rendered books/index.html.erb within layouts/application (7.6ms)
+Completed 200 OK in 88ms (Views: 86.3ms)
+
+
+Started DELETE "/books/5865549eacbd180bace8affe" for 127.0.0.1 at 2016-12-30 01:23:32 +0700
+Processing by BooksController#destroy as JSON
+  Parameters: {"id"=>"5865549eacbd180bace8affe"}
+MONGODB | localhost:27017 | railsreactbook.find | STARTED | {"find"=>"books", "filter"=>{"_id"=>BSON::ObjectId('5865549eacbd180bace8affe')}}
+MONGODB | localhost:27017 | railsreactbook.find | SUCCEEDED | 0.000874278s
+MONGODB | localhost:27017 | railsreactbook.delete | STARTED | {"delete"=>"books", "deletes"=>[{"q"=>{"_id"=>BSON::ObjectId('5865549eacbd180bace8affe')}, "limit"=>1}], "ordered"=>true}
+MONGODB | localhost:27017 | railsreactbook.delete | SUCCEEDED | 0.000527268s
+Completed 204 No Content in 4ms
+
+
+Started GET "/" for 127.0.0.1 at 2016-12-30 01:24:26 +0700
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+  Rendering books/index.json.jbuilder
+MONGODB | localhost:27017 | railsreactbook.find | STARTED | {"find"=>"books", "filter"=>{}, "sort"=>{"created_at"=>-1}}
+MONGODB | localhost:27017 | railsreactbook.find | SUCCEEDED | 0.000892072s
+  Rendered books/_book.json.jbuilder (0.6ms)
+  Rendered books/index.json.jbuilder (4.1ms)
+  Rendered books/index.html.erb within layouts/application (5.6ms)
+Completed 200 OK in 643ms (Views: 638.9ms)
+
+
+Started POST "/books" for 127.0.0.1 at 2016-12-30 01:25:10 +0700
+Processing by BooksController#create as JSON
+  Parameters: {"book"=>{"title"=>"The checked attribute is supported by ", "sinopsis"=>"The checked attribute is supported by <input> components of type checkbox or radio. You can use it to set whether the component is checked. ", "price"=>"12", "published_on"=>"2016-03-07", "status"=>""}}
+MONGODB | localhost:27017 | railsreactbook.insert | STARTED | {"insert"=>"books", "documents"=>[{"_id"=>BSON::ObjectId('58655506acbd180bace8afff'), "title"=>"The checked attribute is supported by ", "sinopsis"=>"The checked attribute is supported by <input> components of type checkbox or radio. You can use it to...
+MONGODB | localhost:27017 | railsreactbook.insert | SUCCEEDED | 0.0009532239999999999s
+  Rendered books/_book.json.jbuilder (1.2ms)
+Completed 200 OK in 11ms (Views: 6.0ms)
+
+
+Started DELETE "/books/58655506acbd180bace8afff" for 127.0.0.1 at 2016-12-30 01:25:16 +0700
+Processing by BooksController#destroy as JSON
+  Parameters: {"id"=>"58655506acbd180bace8afff"}
+MONGODB | localhost:27017 | railsreactbook.find | STARTED | {"find"=>"books", "filter"=>{"_id"=>BSON::ObjectId('58655506acbd180bace8afff')}}
+MONGODB | localhost:27017 | railsreactbook.find | SUCCEEDED | 0.000784001s
+MONGODB | localhost:27017 | railsreactbook.delete | STARTED | {"delete"=>"books", "deletes"=>[{"q"=>{"_id"=>BSON::ObjectId('58655506acbd180bace8afff')}, "limit"=>1}], "ordered"=>true}
+MONGODB | localhost:27017 | railsreactbook.delete | SUCCEEDED | 0.000581518s
+Completed 204 No Content in 4ms
+
+
+Started GET "/" for 127.0.0.1 at 2016-12-30 01:25:19 +0700
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+  Rendering books/index.json.jbuilder
+MONGODB | localhost:27017 | railsreactbook.find | STARTED | {"find"=>"books", "filter"=>{}, "sort"=>{"created_at"=>-1}}
+MONGODB | localhost:27017 | railsreactbook.find | SUCCEEDED | 0.000847268s
+  Rendered books/_book.json.jbuilder (0.7ms)
+  Rendered books/index.json.jbuilder (4.2ms)
+  Rendered books/index.html.erb within layouts/application (6.4ms)
+Completed 200 OK in 90ms (Views: 86.0ms)
+
+
+Started POST "/books" for 127.0.0.1 at 2016-12-30 01:25:49 +0700
+Processing by BooksController#create as JSON
+  Parameters: {"book"=>{"title"=>"You have to be careful about", "sinopsis"=>"You have to be careful about the meaning of this in JSX callbacks. In JavaScript, class methods are not bound by default.", "price"=>"56", "published_on"=>"2016-12-12", "status"=>""}}
+MONGODB | localhost:27017 | railsreactbook.insert | STARTED | {"insert"=>"books", "documents"=>[{"_id"=>BSON::ObjectId('5865552dacbd180bace8b000'), "title"=>"You have to be careful about", "sinopsis"=>"You have to be careful about the meaning of this in JSX callbacks. In JavaScript, class methods are not bound b...
+MONGODB | localhost:27017 | railsreactbook.insert | SUCCEEDED | 0.000939719s
+  Rendered books/_book.json.jbuilder (1.2ms)
+Completed 200 OK in 12ms (Views: 7.3ms)
+
+
+Started POST "/books" for 127.0.0.1 at 2016-12-30 01:26:19 +0700
+Processing by BooksController#create as JSON
+  Parameters: {"book"=>{"title"=>"To specify a CSS class", "sinopsis"=>"Awesome, this works fine. May I ask one thing? is it proper to do it this way? or is there a better pattern to accomplish this? Maybe even", "price"=>"76", "published_on"=>"2016-01-11", "status"=>""}}
+MONGODB | localhost:27017 | railsreactbook.insert | STARTED | {"insert"=>"books", "documents"=>[{"_id"=>BSON::ObjectId('5865554bacbd180bace8b001'), "title"=>"To specify a CSS class", "sinopsis"=>"Awesome, this works fine. May I ask one thing? is it proper to do it this way? or is there a better pattern to accomp...
+MONGODB | localhost:27017 | railsreactbook.insert | SUCCEEDED | 0.001290242s
+  Rendered books/_book.json.jbuilder (0.8ms)
+Completed 200 OK in 11ms (Views: 6.3ms)
+
+
